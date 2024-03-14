@@ -10,7 +10,16 @@ header{
     background-color: rgb(122, 125, 125);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.335);
     border-radius: 30px;
+    display: none;
   
+}
+
+#menu-botao, button{
+    width: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+   
 }
 body{
     background-image: linear-gradient(rgb(132, 132, 132), rgba(0, 0, 0, 0.175));

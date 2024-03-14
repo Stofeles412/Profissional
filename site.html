@@ -7,7 +7,11 @@
     <title>seja bem vindo, a minha pagina.</title>
 </head>
 <body>
-    <header>
+
+    <button onclick="openMenu()">
+        <img src="imagens/sinal-de-seta-para-baixo-para-navegar.png" alt="menu-icon" id="menu-botao" >
+    </button>
+    <header id="mostrar-div">
         <h1>quem sou eu ?</h1>
         <p>Olá, me chamo Fernando, sou estudante de Analise e Desenvolvimento de Sistemas, aqui estou em busca de uma primeira oportunidade, no mercado de ti</p>
 
@@ -44,6 +48,19 @@
         </ul>
 
     </footer>
+    <script>
+        function openMenu(){
+            var abrir = window.document.getElementById("mostrar-div")
+            var icone = window.document.getElementById("menu-botao")
+            if(abrir.style.display == "block"){
+                abrir.style.display = "none"
+               icone.src = "imagens/pra-baixo"
+            }else{
+                abrir.style.display = "block"
+                icone.src = "imagens/pra-cima"
+            }
+        }
+    </script>
     
 </body>
 </html>
