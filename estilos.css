@@ -33,6 +33,7 @@ body{
     background-size: cover;
     color: rgb(1, 39, 50);
     width: 100vh;
+    background-color: rgb(110, 108, 108);
    
     
 
@@ -47,6 +48,7 @@ body{
     border-radius: 2%;
     border: solid 1px rgba(0, 0, 0, 0.403);
     margin-top: 30px;
+    
    
    
     
