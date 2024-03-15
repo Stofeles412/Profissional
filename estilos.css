@@ -99,31 +99,28 @@ div{
    border-radius: 30px;
    text-transform: capitalize;
    display: inline-block;
-   margin-top: 300px;
+ 
+   border: 0px;
   
    
 }
 #containe-1{
     background-color: rgb(21, 176, 207);
     display: inline-block;
-    margin-left: 50px;
-    margin-top: 200px;
+   
     
    
 }
 #containe-2{
     background-color: rgb(212, 99, 12);
     display: inline-block;
-    margin-left: 100px;
-    margin-top: 200px;
+   
    
   
 }
 #containe-3{
     background-color: rgb(224, 236, 0);
     display: inline-block;
-    margin: 930px;
-    margin-top: -700px;
    
    
  
