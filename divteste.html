@@ -3,7 +3,7 @@
 <head>
     <style>
         #cabeça{
-            background-color: rgb(136, 151, 248);
+           text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.27);
             border-radius: 30px;
             padding: 30px;
         }
@@ -12,13 +12,13 @@
         div{
             width: 200px;
             height: 300px;
-            border: solid 1px black;
+            border: solid 2px rgba(0, 0, 0, 0.392);
             padding: 50px;
             box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.361);
            border-radius: 30px;
-           text-transform: capitalize;
            margin-left: 100px;
-           margin-top: 500px;
+          margin-top: 300px;
+          
         }
         #containe-1{
             background-color: rgb(21, 176, 207);
@@ -39,6 +39,33 @@
         img{
             width: 50px;
         }
+        .card-botao{
+            background-color: rgba(0, 0, 0, 0.963);
+            color: azure;
+                height: 30px;
+                width: 200px;
+                border: 0;
+                font-weight: bold;
+                text-transform: uppercase;
+               
+              
+               
+        }
+        body{
+            border: solid 1px black;
+            background-color: rgb(96, 95, 95);
+        }
+.card-botao:hover{
+   background-color: rgb(156, 156, 156);
+   color: black;
+  
+}
+
+        .valor{
+            font-weight: bold;
+            font-size: 1.5em;
+            text-decoration: underline;
+        }
         @media screen and (max-width: 700px){
             body{
                 background-color: rgb(73, 78, 78);
@@ -50,10 +77,10 @@
                
             }
             .card-botao{
-                background-color: rgba(0, 250, 221, 0.963);
+                background-color: rgba(0, 0, 0, 0.963);
+                color: azure;
                 height: 30px;
                 border: 0;
-                border-radius: 30px;
                 font-weight: bold;
             }
         }
@@ -68,38 +95,44 @@
 <body>
 
     <header id="cabeça">
-        <h1>um grande aprendizado</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ipsum! Excepturi modi eligendi cupiditate autem officiis eum possimus porro sequi, fugit commodi, velit quasi qui totam alias at asperiores a!</p>
+        <h1>Veja os cursos, disponiveis na nossa plataforma.</h1>
+      
     </header>
 
-   
-        <h1>Linguangens Front And</h1>
   
 
-
+   
     <div id="containe-1">
+        
         <img src="imagens/icons8-css3-480.png" alt="css">
-<h1>css</h1>
+<h1>CSS</h1>
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fugit explicabo quis rem amet nobis. Blanditiis mollitia nobis, ad tenetur facilis quod consequatur enim repellat quisquam velit optio molestias voluptates?</p>
-
+<p>uma lingugaem de estilos, que com ela você sera capaz de fazer sites muitos bonitos, e responsivos.</p>
+<p class="valor">100.00R$</p>
 <button class="card-botao">comprar</button>
+
+
     </div>
     <div id="containe-2">
         <img src="imagens/logo-html-5-256.png" alt="html">
-        <h1>html</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sunt beatae ad corporis blanditiis voluptatum, fugiat cupiditate, harum tempora possimus praesentium hic explicabo error fuga sequi veniam obcaecati quos sapiente?</p>
+        <h1>HTML</h1>
+        <p>uma linguagem de marcação, que com ela você prepara, a estrutura do site, de forma organiza, e semãntica</p>
+
+        <p class="valor">120.00R$</p>
         <button class="card-botao">comprar</button>
+      
 
 
     </div>
 
     <div id="containe-3">
         <img src="imagens/logo_js-removebg-preview.png" alt="js">
-<h1>java script</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quis quod qui dolore, nam ullam atque! Itaque perferendis, voluptas voluptates, quia error magni, necessitatibus accusantium nemo libero deserunt temporibus nam.</p>
+<h1>JS</h1>
+<p>o Java Script é uma linguagem de programação, focada no front and, com ela você capaz de fazer projetos incriveis, com varias interaçôes</p>
 
+<p class="valor">150.00R$</p>
 <button class="card-botao">comprar</button>
+
     </div>
     
 </body>
