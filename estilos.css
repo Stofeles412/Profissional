@@ -90,43 +90,6 @@ hover{
    
 }
 
-div{
-    width: 200px;
-    height: 300px;
-    border: solid 1px black;
-    padding: 50px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.361);
-   border-radius: 30px;
-   text-transform: capitalize;
-   display: inline-block;
- 
-   border: 0px;
-  
-   
-}
-#containe-1{
-    background-color: rgb(21, 176, 207);
-    display: inline-block;
-   
-    
-   
-}
-#containe-2{
-    background-color: rgb(212, 99, 12);
-    display: inline-block;
-   
-   
-  
-}
-#containe-3{
-    background-color: rgb(224, 236, 0);
-    display: inline-block;
-   
-   
- 
-}
-    
-
 
 @media screen and (min-width: 900px){
     header{
