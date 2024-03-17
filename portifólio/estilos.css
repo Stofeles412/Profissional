@@ -15,7 +15,8 @@
     border-radius: 30px;
     margin-left: 100px;
    margin-top: 300px;
-  overflow: hidden;
+   overflow: hidden;
+ 
   
    
  }
@@ -34,7 +35,7 @@
  #containe-3{
      background-color: rgb(224, 236, 0);
      display: inline-block;
-     line-height: 20px;
+    
    
     
      
@@ -43,7 +44,7 @@
   
  }
  img{
-     width: 50px;
+     width: 40px;
  }
  .card-botao{
      background-color: rgba(0, 0, 0, 0.963);
@@ -60,7 +61,7 @@
  }
  body{
      border: solid 1px black;
-     background-color: rgb(96, 95, 95);
+     background-color: rgb(114, 118, 118);
  }
 .card-botao:hover{
 background-color: rgb(156, 156, 156);
@@ -76,13 +77,14 @@ color: black;
  }
  @media screen and (max-width: 700px){
      body{
-         background-color: rgb(73, 78, 78);
+         background-color: rgb(114, 118, 118);
+        
      }
      div{ display: column;
          overflow: hidden;
          margin-top: 100px;
          margin-left: 50px;
-         padding: 80px;
+         padding: 70px;
         
      }
      .card-botao{
@@ -93,4 +95,5 @@ color: black;
          font-weight: bold;
          border-radius: 5px;
      }
+   
  }
