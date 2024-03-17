@@ -1,0 +1,96 @@
+
+#cabeça{
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.27);
+     border-radius: 30px;
+     padding: 30px;
+ }
+
+
+ div{
+     width: 200px;
+     height: 300px;
+     border: solid 2px rgba(0, 0, 0, 0.392);
+     padding: 50px;
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.361);
+    border-radius: 30px;
+    margin-left: 100px;
+   margin-top: 300px;
+  overflow: hidden;
+  
+   
+ }
+ #containe-1{
+     background-color: rgb(21, 176, 207);
+     display: inline-block;
+     
+    
+ }
+ #containe-2{
+     background-color: rgb(212, 99, 12);
+     display: inline-block;
+     
+   
+ }
+ #containe-3{
+     background-color: rgb(224, 236, 0);
+     display: inline-block;
+     line-height: 20px;
+   
+    
+     
+    
+    
+  
+ }
+ img{
+     width: 50px;
+ }
+ .card-botao{
+     background-color: rgba(0, 0, 0, 0.963);
+     color: azure;
+         height: 30px;
+         width: 200px;
+         border: 0;
+         font-weight: bold;
+         text-transform: uppercase;
+         border-radius: 5px;
+        
+       
+        
+ }
+ body{
+     border: solid 1px black;
+     background-color: rgb(96, 95, 95);
+ }
+.card-botao:hover{
+background-color: rgb(156, 156, 156);
+color: black;
+
+}
+
+
+ .valor{
+     font-weight: bold;
+     font-size: 1.5em;
+     text-decoration: underline;
+ }
+ @media screen and (max-width: 700px){
+     body{
+         background-color: rgb(73, 78, 78);
+     }
+     div{ display: column;
+         overflow: hidden;
+         margin-top: 100px;
+         margin-left: 50px;
+         padding: 80px;
+        
+     }
+     .card-botao{
+         background-color: rgba(0, 0, 0, 0.963);
+         color: azure;
+         height: 40px;
+         border: 0;
+         font-weight: bold;
+         border-radius: 5px;
+     }
+ }
