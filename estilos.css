@@ -5,17 +5,17 @@
 }
 
 header{
-    padding: 110px;
-    background-image: linear-gradient(rgb(13, 34, 25), black);
+    padding: 50px;
+    background-image: linear-gradient(rgb(48, 50, 49), rgba(0, 0, 0, 0.559));
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.335);
-    border-radius: 100%;
+    border-radius: 50px;
     display: none;
     line-height: 50px;
     font-weight: bold;
     text-transform: capitalize;
-    color: rgb(195, 204, 212);
-  font-family: cursive;
+    color: rgb(6, 138, 254);
   font-size: 1.3em;
+  overflow: hidden;
   
 }
 
@@ -93,9 +93,9 @@ hover{
 
 @media screen and (min-width: 900px){
     header{
-        padding: 150px;
-        border-radius: 100%;
-        background-image: linear-gradient(rgb(13, 34, 25), black);
+        padding: 50px;
+        border-radius: 50px;
+        background-image: linear-gradient(rgb(48, 50, 49), rgba(0, 0, 0, 0.559));
       
     }
     ul, li{ margin-right: 350px;
