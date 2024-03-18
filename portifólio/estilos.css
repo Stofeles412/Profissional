@@ -7,8 +7,8 @@
 
 
  div{
-     width: 200px;
-     height: 300px;
+    width: 200px;
+    height: 300px;
      border: solid 2px rgba(0, 0, 0, 0.392);
      padding: 50px;
      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.361);
@@ -16,6 +16,8 @@
     margin-left: 100px;
    margin-top: 300px;
    overflow: hidden;
+   
+ 
  
   
    
@@ -35,6 +37,9 @@
  #containe-3{
      background-color: rgb(224, 236, 0);
      display: inline-block;
+     line-height: 19px;
+   
+ 
     
    
     
@@ -97,3 +102,4 @@ color: black;
      }
    
  }
+ 
