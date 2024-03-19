@@ -3,34 +3,81 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-color: bisque;
+    background-color: rgba(63, 63, 63, 0.548);
+    padding: 30px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
 }
 div{
-    height: 500px;
+    height: 550px;
     width: 200px;
    display: inline-block;
    margin-left: 50px;
    margin-top: 200px;
    border-radius: 30px;
+   border: solid 2px rgba(0, 0, 0, 0.372);
    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
    overflow: hidden;
-   background-color: rgb(12, 57, 71);
-   color: white;
+   background-color: rgb(151, 151, 152);
+   color: rgb(9, 9, 9);
    padding: 30px;
+   
     
 }
+h2{
+    background-color: rgba(251, 255, 255, 0.759);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px;
+    text-transform: capitalize;
+}
 
-#card-1{
+p{
+    margin-top: 200px;
+    color: black;
+    
+}
+.card-botao{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 70%;
+    text-transform: uppercase;
+}
+.card-botao:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+
+#card-1{ background-image: url(../imagens/imagem-nova\ york.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px;
 
 }
-#card-2{
+#card-2{  background-image: url(../imagens/imagem-miami.webp);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    
   
 }
-#card-3{
+#card-3{  background-image: url(../imagens/imgem-tokyo.jpg);
+    background-repeat: no-repeat;
+    background-size: 370px;
+    
   
 }
-#card-4{
-   
+#card-4{  background-image: url(../imagens/imagem\ -\ toronto.jpeg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.valor{
+    margin-top: 20px;
+    text-decoration: underline;
+    
 }
