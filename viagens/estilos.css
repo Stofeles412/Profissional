@@ -15,6 +15,9 @@ header{
     padding: 30px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
 }
+
+    
+
 div{
     min-height: 550px;
     max-height: 600px;
@@ -32,13 +35,16 @@ div{
    
     
 }
+div:hover{
+border: solid 2px rgb(81, 81, 81);
+}
 h2{
-    background-color: rgba(251, 255, 255, 0.759);
     color: rgb(0, 0, 0);
     font-weight: bold;
     border-radius: 30px;
     padding: 10px;
     text-transform: capitalize;
+    margin-top: 200px;
 }
 
 p{
