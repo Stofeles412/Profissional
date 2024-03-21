@@ -16,16 +16,17 @@ header{
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
 }
 div{
-    height: 550px;
+    min-height: 550px;
+    max-height: 600px;
     width: 200px;
    display: inline-block;
-   margin-left: 50px;
+   margin-left: 40px;
    margin-top: 200px;
    border-radius: 30px;
    border: solid 2px rgba(0, 0, 0, 0.372);
    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
    overflow: hidden;
-   background-color: rgb(151, 151, 152);
+   background-color: rgb(203, 203, 206);
    color: rgb(9, 9, 9);
    padding: 30px;
    
