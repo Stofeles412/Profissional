@@ -138,13 +138,16 @@ p{
    
     
 }
-
+img, button{
+    display: none;
+}
 @media screen and (max-width: 500px){
     #itens{
         display: none;
     }
     img, button{
         width: 30px;
+        display: inline;
         cursor: pointer;
         border: none;
         background-color: transparent;
