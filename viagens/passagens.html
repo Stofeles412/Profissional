@@ -13,7 +13,7 @@
     </header>
   
     <nav>
-        <button onclick="abrirMenu()"><img src="../imagens/menu-aberto (1).png" alt="menu" id="icone-menu"></button>
+        <button onclick="openMenu()"><img src="../imagens/menu-aberto (1).png" alt="menu" id="icone-menu"></button>
         
         <ul id="itens">
             <li class="list"><a href="#">viajens</a></li>
@@ -74,7 +74,7 @@
 
     </footer>
     <script>
-        function abrirMenu(){
+        function openMenu(){
         var abrir = window.document.getElementById('itens')
         var icone = window.document.getElementById('icone-menu')
         if(abrir.style.display == 'none'){
