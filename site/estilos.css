@@ -87,6 +87,14 @@ h2{
     list-style-type: none;
    
 }
+article{
+    width: 100%;
+  background-color: rgb(129, 129, 129);
+    border: solid 1px black;
+    margin-top: 100px;
+    border-radius: 20px;
+   
+}
 
   
    
