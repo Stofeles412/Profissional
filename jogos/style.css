@@ -14,9 +14,13 @@
     
 }
 #containe-2{
-    background-color: rgb(39, 51, 47);
+    background-color: black;
     width: 700px;
     height: 200px;
+    background-image: url(../jogos/imagens/granblue\ capa.webp);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 150px;
 }
 #containe-3{
     background-color: rgb(27, 215, 152);
