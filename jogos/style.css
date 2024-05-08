@@ -10,6 +10,7 @@ header{
 }
 body{
     border: solid 1px black;
+    width: 100vh;
 }
 #containe-1{
     background-color: rgb(255, 255, 255);
@@ -121,4 +122,15 @@ h2{
 .sinop{
     line-height: 40px;
     margin-left: 150px;
+}
+
+@media screen and ( max-width: 1250px){
+#containe-1{
+height: 50%;
+width:650px;
+
+}
+#botao-comprar{
+   margin-right: 500px;
+}
 }
