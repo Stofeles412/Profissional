@@ -3,10 +3,16 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-#containe-1{
+header{
     background-color: black;
+}
+body{
+    border: solid 1px black;
+}
+#containe-1{
+    background-color: rgb(255, 255, 255);
     width: 700px;
-    height: 250px;
+    height:100%;
     background-image: url(../jogos/imagens/stelar-img.jpg);
     background-repeat: no-repeat;
     background-position: left;
@@ -14,54 +20,103 @@
     
 }
 #containe-2{
-    background-color: black;
+    background-color: rgb(190, 189, 189);
     width: 700px;
-    height: 200px;
+    height:100%;
     background-image: url(../jogos/imagens/granblue\ capa.webp);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 150px;
 }
 #containe-3{
-    background-color: black;
+    background-color: rgb(248, 248, 248);
     width: 700px;
-    height: 200px;
+    height:100%;
     background-image: url(../jogos/imagens/elder\ ring\ capa.jpg);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 150px;
 }
 #containe-4{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(190, 189, 189);
     width: 700px;
-    height: 200px;
+    height:100%;
     background-image: url(../jogos/imagens/final\ fantasy\ capa.jpg);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 150px;
 }
+#containe-5{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height:100%;
+    background-image: url(../jogos/imagens/final\ fantsy\ xvi\ capa.jpeg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 150px;
+}
+#containe-6{
+    background-color: rgb(190, 189, 189);
+    width: 700px;
+    height:100%;
+    background-image: url(../jogos/imagens/horizon\ capa.webp);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 150px;
+}
+#containe-7{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height:100%;
+    background-image: url(../jogos/imagens/mk1\ capa.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 150px;
+}
 div{
-    margin: 50px;
+    margin: 50px ;
     padding: 30px;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.387);
+    border: solid 1px black;
+   
     
    
 }
+div:hover{
+    box-shadow: 5px 5px 5px rgb(14, 93, 210);
+}
 h2, p{
-    text-align: center;
+   margin-top: 30px;
     color: rgb(10, 115, 207);
   
 }
+h2{
+    text-transform: capitalize;
+    font-size: 2em;
+}
 .info{
-    margin-top: 140px;
+    margin-top: 200px;
+    font-weight: bold;
+    padding: 5px;
     display: inline-block;
     background-color: rgb(34, 182, 209);
 }
+.info:hover{
+    cursor: pointer;
+    color: aqua;
+    background-color: rgb(3, 28, 72);
+}
 #botao-comprar{
+    cursor: pointer;
     font-weight: bold;
-    width: 40%;
+    width: 30%;
     border: 0;
     padding: 5px;
-    margin-left: 400px;
+    margin-left: 450px;
     display: inline-block;
-    background-color: cadetblue;
+    background-color: rgb(2, 135, 244);
+}
+.sinop{
+    line-height: 40px;
+    margin-left: 150px;
 }
