@@ -4,7 +4,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-color: black;
+    background-color: rgb(38, 39, 37);
+    height: 100px;
+    color: rgb(0, 119, 255);
 }
 body{
     border: solid 1px black;
