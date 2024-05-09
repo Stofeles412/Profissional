@@ -147,7 +147,7 @@ body{
 
 @media screen and (max-width: 800px){
     body{
-      
+      font-size: 1.5em;
     width: 100vh;
     }
     header{
@@ -189,5 +189,6 @@ body{
     }
     #botao-comprar{
        margin: 50px;
+       font-size: 1.2em;
     }
 }
