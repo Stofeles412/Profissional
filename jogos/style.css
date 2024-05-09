@@ -5,6 +5,7 @@
 }
 header{
     background-color: rgb(38, 39, 37);
+    width: 100%;
     height: 100px;
     color: rgb(0, 119, 255);
 }
@@ -145,11 +146,48 @@ body{
 
 
 @media screen and (max-width: 700px){
+    body{
+      
+    width: 100vh;
+    }
+    header{
+        width: 100vh;
+        overflow: hidden;
+    }
+    div{
+      overflow: hidden;
+      width: 70%;
+    }
     #containe-1{
-       width: 650px;
-       height: 500px;
+        width: 70%;
+        height: 50%;
     }
     #containe-2{
-       
+        width: 70%;
+        height: 50%;
+    }
+
+    #containe-3{
+        width: 70%;
+        height: 50%;
+    }
+    #containe-4{
+        width: 70%;
+        height: 50%;
+    }
+    #containe-5{
+        width: 70%;
+        height: 50%;
+    }
+    #containe-6{
+        width: 70%;
+        height: 50%;
+    }
+    #containe-7{
+        width: 70%;
+        height: 50%;
+    }
+    #botao-comprar{
+       margin: 50px;
     }
 }
