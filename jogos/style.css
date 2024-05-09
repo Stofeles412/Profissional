@@ -98,6 +98,11 @@ h2{
     text-transform: capitalize;
     font-size: 2em;
 }
+#sub-titulo{
+    margin-top: 100px;
+    padding: 30px;
+    text-decoration: underline;
+}
 .info{
     margin-top: 200px;
     font-weight: bold;
@@ -146,6 +151,7 @@ body{
 
 
 @media screen and (max-width: 800px){
+    
     body{
       font-size: 1.5em;
     width: 100vh;
