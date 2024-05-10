@@ -1,4 +1,4 @@
-*{
+*{ 
     margin: 0;
     padding: 0;
 }
@@ -29,6 +29,7 @@ header{
    
 }
 body{
+    width: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(2, 63, 80);
@@ -59,8 +60,6 @@ h2{
    
     
    
-   
-    
 }
 .redes-sociais{
     width: 70px;
@@ -71,10 +70,10 @@ h2{
 }
 
 #pe-do-site{
-    background-color: rgb(110, 108, 108);
+    background-color: rgb(19, 66, 113);
     padding: 10px;
     margin-top: 200px;
-    margin-left: 200px;
+    margin-left: 10px;
   
    
   
@@ -88,17 +87,19 @@ h2{
 }
 article{
     width: 100%;
-  background-color: rgb(129, 129, 129);
     border: solid 1px black;
+  background-color: rgb(129, 129, 129);
     margin-top: 100px;
     border-radius: 20px;
    
 }
 
-  
-   
-
-
+  #art{
+    text-align: center;
+    background-color: rgb(0, 228, 244);
+    height: 300px;
+    width: 100%;
+  }
 
 @media screen and (min-width: 900px){
     header{
@@ -118,4 +119,8 @@ article{
         width: 100%;
 
     }
+   #pe-do-site{
+   width: 250%;
+    background-color: rgb(4, 81, 132);
+   } 
 }

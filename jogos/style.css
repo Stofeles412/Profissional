@@ -161,6 +161,7 @@ body{
         overflow: hidden;
     }
     div{
+        margin-top: 200px;
       overflow: hidden;
       width: 70%;
     }
