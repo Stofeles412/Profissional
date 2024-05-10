@@ -94,11 +94,17 @@ article{
    
 }
 
-  #art{
-    text-align: center;
-    background-color: rgb(0, 228, 244);
-    height: 300px;
-    width: 100%;
+  #botao{
+    font-weight: bold;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 119, 250);
+    width: 100px;
+    height: 30px;
+   border: 0;
+  }
+  h2, p{
+    padding: 10px;
   }
 
 @media screen and (min-width: 900px){

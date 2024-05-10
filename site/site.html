@@ -37,18 +37,16 @@
         
 
     </section>
-    <nav id="art">
+
         <h2>meus projetos</h2>
         <p>compra de passagens</p>
-      <ul>
-        <img src="../imagens/pra-cima.png" alt="" width="30px">
+      
+        <img src="../imagens/Captura de tela 2024-04-25 191352.png" alt="" width="300px" class="img">
         <li><a href="#">visitar </a></li>
 
-      </ul>
-    </nav>
+        <input type="button" value="ampliar" onclick="ampliarImg()" id="botao">
     
-  
-    
+
 
     <footer id="pe-do-site">
         <ul>
@@ -57,7 +55,7 @@
 
             <li><a href="https://github.com/Stofeles412/" target="_blank"><img src="../imagens/github_PNG53.png" alt="guithub" class="redes-sociais"></a></li>
 
-            <li><a href="http://wa.me/5521966721459"><img src="../imagens/whatsapp.png" alt="whatssap" class="redes-sociais"></a></li>
+            <li class="imagens"><a href="http://wa.me/5521966721459"><img src="../imagens/whatsapp.png" alt="whatssap" class="redes-sociais"></a></li>
            
         </ul>
 
@@ -74,6 +72,24 @@
                 icone.src = "../imagens/pra-cima.png"
             }
         }
+
+        var isAmpliado = false;
+
+function ampliarImg() {
+    var imagens = document.getElementsByClassName('img');
+    if (imagens.length > 0) {
+        if (isAmpliado) {
+            // Se já estiver ampliado, volta ao tamanho original
+            imagens[0].style.width = "400px";
+            isAmpliado = false;
+        } else {
+            // Se não estiver ampliado, amplia para 500px
+            imagens[0].style.width = "800px";
+            isAmpliado = true;
+        }
+    }
+}
+        
     </script>
     
 </body>
