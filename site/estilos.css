@@ -103,6 +103,9 @@ article{
     height: 30px;
    border: 0;
   }
+  .img:hover{
+    cursor: zoom-in;
+  }
   h2, p{
     padding: 10px;
   }
