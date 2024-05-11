@@ -11,14 +11,17 @@
 }
 
 div{
-display: inline-block; 
+width: 50%;
 margin-top: 300px;   
 }
 #containe-1{
+    display: inline-block;
 background-image: url(../cardapio/imagens/xtudo.jpeg);
 background-repeat: no-repeat;
-background-position: center center;
-width: 500px;
+background-position: center;
+margin-left: 100px;
+width: 1000px;
+height: 700px;
 
 }
 #containe-2{
