@@ -2,13 +2,24 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-}div{
-display: inline-block;    
+}header{
+    background-image: url(../cardapio/imagens/walpeper\ site.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+}
+
+div{
+display: inline-block; 
+margin-top: 300px;   
 }
 #containe-1{
-background-color: rgb(101, 169, 169);
-width: 300px;
-height: 200px;
+background-image: url(../cardapio/imagens/xtudo.jpeg);
+background-repeat: no-repeat;
+background-position: center center;
+width: 500px;
+
 }
 #containe-2{
 background-color: rgb(2, 9, 9); 
