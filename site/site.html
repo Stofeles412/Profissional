@@ -16,7 +16,7 @@
         <p>Olá, me chamo Fernando, sou estudante de Analise e Desenvolvimento de Sistemas, aqui estou em busca de uma primeira oportunidade, no mercado de ti</p>
 
     </header>
-    <section id="seçao">
+    <div id="seçao">
         <h2>com oque trabalho ?</h2>
         <p>possuo conhecimentos em HTML CSS, Java Script, Mysql e PHP</p>
 
@@ -36,16 +36,26 @@
         <p>O java Script que diferente do HTML e CSS, ela já é uma linguagemde programação, q eu uso, para ter mais interatividade, entre o site, e o usuario final</p>
         
 
-    </section>
+    </div>
 
-        <h2>meus projetos</h2>
-        <p>compra de passagens</p>
-      
+
+    <article class="projetos">
+        <h1>meus projetos</h1>
+        <h2 class="h2-artigo">compra de passagens</h2>
         <img src="../imagens/Captura de tela 2024-04-25 191352.png" alt="" width="300px" class="img" onclick="ampliarImg()" >
-        <li><a href="#">visitar pagina</a></li>
+        <a href="#">visitar pagina</a>
 
+        <p>compra de passagens</p>
+    
+      <h2 class="h2-artigo">loja de jogos</h2>
+
+      <img src="../imagens/imagem-miami.webp" alt="" class="imagens">
+
+      <a href="#">visitar pagina</a>
+      
+      
        
-
+    </article>
 
     <footer id="pe-do-site">
         <ul>
@@ -79,7 +89,7 @@ function ampliarImg() {
     if (imagens.length > 0) {
         if (isAmpliado) {
             // Se já estiver ampliado, volta ao tamanho original
-            imagens[0].style.width = "400px";
+            imagens[0].style.width = "500px";
             isAmpliado = false;
         } else {
             // Se não estiver ampliado, amplia para 500px

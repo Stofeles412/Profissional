@@ -42,6 +42,7 @@ body{
 .imagens{
     width: 150px;
     padding: 30px;
+   
 }
 h2{
     margin-top: 100px;
@@ -49,14 +50,17 @@ h2{
 
 
 #seçao{
+    width:200%;
     line-height: 60px;
     padding: 30px;
     border-radius: 30px;
     border: solid 1px rgba(0, 0, 0, 0.403);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.437);
     margin-top: 30px;
     text-align: justify;
     overflow: hidden;
     font-size: 2em;
+    background-color: rgb(124, 127, 130);
    
     
    
@@ -68,17 +72,25 @@ h2{
   
    
 }
+.projetos{
+   padding: 20px;
+  min-width: 200%;
+  height: 400%;
+    width: 100%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.399);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 
 #pe-do-site{
+    width: 250%;
+    height: 100%;
     background-color: rgb(19, 66, 113);
     padding: 10px;
     margin-top: 200px;
     margin-left: 10px;
   
-   
-  
-   
-    
 }
  ul{
     display: flex;
@@ -88,7 +100,7 @@ h2{
 article{
     width: 100%;
     border: solid 1px black;
-  background-color: rgb(129, 129, 129);
+  background-color: rgb(4, 60, 67);
     margin-top: 100px;
     border-radius: 20px;
    
@@ -108,9 +120,27 @@ article{
   }
   h2, p{
     padding: 10px;
+   
+  }
+  .h2-artigo{
+    color: azure;
+  }
+  a{
+    font-size: 1.4em;
+    color: rgb(251, 251, 251);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  a:hover{
+    background-color: rgb(95, 95, 94);
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+    transition: .4s;
   }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 600px){
     header{
         padding: 50px;
         border-radius: 50px;
@@ -124,12 +154,11 @@ article{
     #menu-botao{
         padding: 20px;
     }
-    #seçao{ margin-left: 200px;
-        width: 100%;
+    #seçao{ 
 
     }
    #pe-do-site{
-   width: 250%;
+   
     background-color: rgb(4, 81, 132);
    } 
 }
