@@ -34,7 +34,7 @@ body{
     background-size: cover;
     color: rgb(2, 63, 80);
     width: 100vh;
-    background-color: rgb(96, 94, 94);
+    background-color: rgb(255, 250, 250);
    
     
 
@@ -82,6 +82,29 @@ h2{
     background-position: center center;
     background-size: cover;
 }
+.img{
+    width: 490px;
+    border-radius: 30px;
+    padding: 20px;
+}
+.artigo-p{
+    color: rgb(4, 162, 241);
+    font-size: 1.4em;
+}
+.artigo-h1{ color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 2.4em;
+
+}
+.link-botao{
+    background-color: rgb(15, 157, 234);
+    border: 0;
+    width: 200px;
+    margin-top: 50px;
+    
+}
 
 #pe-do-site{
     width: 250%;
@@ -100,7 +123,7 @@ h2{
 article{
     width: 100%;
     border: solid 1px black;
-  background-color: rgb(4, 60, 67);
+  background-color: rgb(19, 44, 67);
     margin-top: 100px;
     border-radius: 20px;
    
@@ -117,6 +140,7 @@ article{
   }
   .img:hover{
     cursor: zoom-in;
+   
   }
   h2, p{
     padding: 10px;
@@ -132,12 +156,9 @@ article{
     text-decoration: none;
     text-transform: capitalize;
   }
-  a:hover{
-    background-color: rgb(95, 95, 94);
-    color: black;
-    border-radius: 20px;
-    padding: 5px;
-    transition: .4s;
+  .link-botao:hover{
+   background-color: rgb(3, 18, 55);
+    transition: .3s;
   }
 
 @media screen and (min-width: 600px){

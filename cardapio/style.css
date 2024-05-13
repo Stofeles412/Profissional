@@ -69,7 +69,8 @@ div{
     color: rgb(255, 255, 255);
     width: 80%;
     height: 100%;
-margin-top: 300px;   
+margin-top: 300px; 
+margin-left: 30px;  
 }
 #containe-1{  
 background-color: rgb(188, 51, 51); 
