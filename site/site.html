@@ -50,7 +50,7 @@
     
       <h2 class="h2-artigo">loja de jogos</h2>
 
-      <img src="../imagens/Captura de tela 2024-05-13 005652.png" alt="print do meu projeto" class="img" >
+      <img src="../imagens/Captura de tela 2024-05-13 005652.png" alt="print do meu projeto" class="img" onclick="almentarimg()">
 
       <p class="artigo-p">Um projeto de uma loja de venda de jogos de ps5</p>
 
@@ -58,14 +58,14 @@
       
       <h2 class="h2-artigo">Menu lanchonete</h2>
        
-      <img src="../imagens/Captura de tela 2024-05-13 012808.png" alt="print do meu projeto" class="img">
+      <img src="../imagens/Captura de tela 2024-05-13 012808.png" alt="print do meu projeto" class="img" onclick="lupaimg()">
 
       <p class="artigo-p">Um projeto de uma lanchonete</p>
 
       <button class="link-botao"><a href="https://stofeles412.github.io/Profissional/cardapio/menu.html" target="_blank">visitar pagina</a></button>
     </article>
 
-    <footer id="pe-do-site">
+    <div id="pe-do-site">
         <ul>
             <li><a href="https://www.instagram.com/stofelesfernando/"><img src="../imagens/instagram.png" alt="instagran" class="redes-sociais"></a></li>
          
@@ -76,7 +76,9 @@
            
         </ul>
 
-    </footer>
+    </div>
+
+
     <script>
         function openMenu(){
             var abrir = window.document.getElementById("mostrar-div")
@@ -104,6 +106,30 @@ function ampliarImg() {
             imagens[0].style.width = "800px";
             isAmpliado = true;
         }
+    }
+}
+
+var zoom = false
+function almentarimg(){
+    var ampliar = window.document.getElementsByClassName('img')
+    if(!zoom){
+        ampliar[1].style.width = '500px'
+        zoom = true
+    }else{
+    ampliar[1].style.width = "800px"
+    zoom = false
+    }
+}
+
+var mais = false
+function lupaimg(){
+    var lupa = window.document.getElementsByClassName('img')
+    if(!mais){
+        lupa[2].style.width = "500px"
+        mais = true
+    }else{
+        lupa[2].style.width = "800px"
+        mais = false
     }
 }
         
