@@ -70,7 +70,7 @@ h2{
 .redes-sociais{
   display: flex;
 text-align: center;
-margin-right: 50px;
+margin-right: 100px;
   width: 80px;
  
 }
@@ -122,7 +122,7 @@ ul{
  
 }
 article{
-  width: 100vw;
+  width: 90%;
   border: solid 2px black;
   background-color: rgb(19, 44, 67);
   margin-top: 100px;
@@ -197,10 +197,11 @@ a{
   background-color: rgb(27, 147, 226);
  } 
  .redes-sociais{
-
+margin-right: 50px;
  }
  #seçao{
   width: 90vw;
+ 
  }
  .projetos{
   width: 90vw;
