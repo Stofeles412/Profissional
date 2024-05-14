@@ -13,7 +13,7 @@ header{
   font-weight: bold;
   text-transform: capitalize;
   color: rgb(6, 138, 254);
-font-size: 1.3em;
+font-size: 1.7em;
 overflow: hidden;
 margin-left: 50px;
 
@@ -64,9 +64,6 @@ h2{
   overflow: hidden;
   font-size: 2em;
  
- 
-  
- 
 }
 .redes-sociais{
   display: flex;
@@ -106,6 +103,7 @@ height: 100%;
   border: 0;
   width: 200px;
   margin-top: 50px;
+  font-size: 1.2em;
   
 }
 
@@ -166,7 +164,7 @@ a{
 #ul-icones{
   display: flex;
   margin-left: 200px;
-  margin-right: 100px;
+  margin-right: 90px;
   
 }
 
