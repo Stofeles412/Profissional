@@ -1,196 +1,196 @@
 *{ 
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header{
-    padding: 50px;
-    background-image: linear-gradient(rgb(48, 50, 49), rgba(0, 0, 0, 0.559));
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.335);
-    border-radius: 50px;
-    display: none;
-    line-height: 50px;
-    font-weight: bold;
-    text-transform: capitalize;
-    color: rgb(6, 138, 254);
-  font-size: 1.3em;
-  overflow: hidden;
-  margin-left: 50px;
- 
-  
+  padding: 50px;
+  background-image: linear-gradient(rgb(48, 50, 49), rgba(0, 0, 0, 0.559));
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.335);
+  border-radius: 50px;
+  display: none;
+  line-height: 50px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: rgb(6, 138, 254);
+font-size: 1.3em;
+overflow: hidden;
+margin-left: 50px;
+
+
 }
 
 #menu-botao, button{
-    width: 30px;
-    padding: 10px;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-   
+  width: 30px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+ 
 }
 body{
-    width: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: rgb(2, 63, 80);
-    width: 100vh;
-    background-color: rgb(255, 250, 250);
-    overflow-x: hidden;
-   
-    
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(2, 63, 80);
+  width: 100vh;
+  background-color: rgb(255, 250, 250);
+  overflow-x: hidden;
+ 
+  
 
 }
 .imagens{
-    width: 150px;
-    padding: 30px;
-   
+  width: 150px;
+  padding: 30px;
+ 
 }
 h2{
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 
 #seçao{
-    width:200%;
-    line-height: 60px;
-    padding: 30px;
-    border-radius: 30px;
-    border: solid 1px rgba(0, 0, 0, 0.403);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.437);
-    margin-top: 30px;
-    text-align: justify;
-    overflow: hidden;
-    font-size: 2em;
-    background-color: rgb(124, 127, 130);
-   
-    
-   
+  width:200%;
+  line-height: 60px;
+  padding: 30px;
+  border-radius: 30px;
+  border: solid 1px rgba(0, 0, 0, 0.403);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.437);
+  margin-top: 30px;
+  text-align: justify;
+  overflow: hidden;
+  font-size: 2em;
+  background-color: rgb(124, 127, 130);
+ 
+  
+ 
 }
 .redes-sociais{
-    display: flex;
-  text-align: center;
-  margin-right: 50px;
-    width: 40px;
-   
+  display: flex;
+text-align: center;
+margin-right: 50px;
+  width: 40px;
+ 
 }
 .projetos{
-    margin-top: 500px;
-    margin-top: 400px;
-   padding: 20px;
-  min-width: 200%;
-  height: 400%;
-    width: 100%;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.399);
+  margin-top: 500px;
+  margin-top: 400px;
+ padding: 20px;
+min-width: 200%;
+height: 400%;
+  width: 100%;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.399);
 }
 .img{
-    transition: 1s;
-    width: 490px;
-    border-radius: 30px;
-    padding: 20px;
+  transition: 1s;
+  width: 490px;
+  border-radius: 30px;
+  padding: 20px;
 }
 .artigo-p{
-    color: rgb(4, 162, 241);
-    font-size: 1.4em;
+  color: rgb(4, 162, 241);
+  font-size: 1.4em;
 }
 .artigo-h1{ color: aliceblue;
-    background-color: rgba(0, 0, 0, 0.048);
-    border-radius: 30px;
-    padding: 10px;
-    font-size: 2.4em;
+  background-color: rgba(0, 0, 0, 0.048);
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 2.4em;
 
 }
 .link-botao{
-    background-color: rgb(15, 157, 234);
-    border: 0;
-    width: 200px;
-    margin-top: 50px;
-    
+  background-color: rgb(15, 157, 234);
+  border: 0;
+  width: 200px;
+  margin-top: 50px;
+  
 }
 
 #pe-do-site{
-    background-color: rgb(27, 147, 226);
-    margin-top: 400px;
-  width: 100%;
-  height: 100%;
-  
+  background-color: rgb(27, 147, 226);
+  margin-top: 400px;
+width: 100%;
+height: 100%;
+
 }
- ul{
-    display: flex;
-    list-style-type: none;
-   
+ul{
+  display: flex;
+  list-style-type: none;
+ 
 }
 article{
-    width: 100%;
-    border: solid 2px black;
-    background-color: rgb(19, 44, 67);
-    margin-top: 100px;
-   
-   
+  width: 100%;
+  border: solid 2px black;
+  background-color: rgb(19, 44, 67);
+  margin-top: 100px;
+ 
+ 
 }
 
-  #botao{
-    font-weight: bold;
-    margin: auto;
-    color: rgb(255, 255, 255);
-    background-color: rgb(38, 119, 250);
-    width: 100px;
-    height: 30px;
-   border: 0;
-  }
-  .img:hover{
-    cursor: zoom-in;
-   
-  }
-  h2, p{
-    padding: 10px;
-   
-  }
-  .h2-artigo{
-    color: azure;
-  }
-  a{
-    font-size: 1.4em;
-    color: rgb(251, 251, 251);
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: capitalize;
-  }
-  .link-botao:hover{
-   background-color: rgb(3, 18, 55);
-    transition: .3s;
-  }
-  #ul-icones{
-    display: flex;
-    margin-left: 200px;
-    margin-right: 100px;
-    
-  }
+#botao{
+  font-weight: bold;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  background-color: rgb(38, 119, 250);
+  width: 100px;
+  height: 30px;
+ border: 0;
+}
+.img:hover{
+  cursor: zoom-in;
+ 
+}
+h2, p{
+  padding: 10px;
+ 
+}
+.h2-artigo{
+  color: azure;
+}
+a{
+  font-size: 1.4em;
+  color: rgb(251, 251, 251);
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.link-botao:hover{
+ background-color: rgb(3, 18, 55);
+  transition: .3s;
+}
+#ul-icones{
+  display: flex;
+  margin-left: 200px;
+  margin-right: 100px;
+  
+}
 
 @media screen and (min-width: 800px){
-    header{
-        padding: 50px;
-        border-radius: 50px;
-        background-image: linear-gradient(rgb(48, 50, 49), rgba(0, 0, 0, 0.559));
-      
-    }
-    ul, li{ 
-      
-        margin-right: 350px;
-        padding: 10px;
+  header{
+      padding: 50px;
+      border-radius: 50px;
+      background-image: linear-gradient(rgb(48, 50, 49), rgba(0, 0, 0, 0.559));
+    
+  }
+  ul, li{ 
+    
+      margin-right: 350px;
+      padding: 10px;
 
-    }
-    #menu-botao{
-        padding: 20px;
-    }
-    .redes-sociais{
-      
-     
-    }
-   #pe-do-site{
-   width: 250%;
-    background-color: rgb(27, 147, 226);
-   } 
-   .redes-sociais{
-  
-   }
+  }
+  #menu-botao{
+      padding: 20px;
+  }
+  .redes-sociais{
+   
+   
+  }
+ #pe-do-site{
+ width: 100vw;
+  background-color: rgb(27, 147, 226);
+ } 
+ .redes-sociais{
+
+ }
 }
