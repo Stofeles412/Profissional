@@ -18,6 +18,7 @@ overflow: hidden;
 margin-left: 50px;
 
 
+
 }
 
 #menu-botao, button{
@@ -126,6 +127,9 @@ article{
   margin-top: 100px;
  
  
+}
+#art-2{
+  background-color: antiquewhite;
 }
 
 #botao{
