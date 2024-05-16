@@ -200,12 +200,16 @@ a{
    
   }
  #pe-do-site{
+  font-size: 1.1em;
+  text-align: center;
  width: 100vw;
-  background-color: rgb(27, 147, 226);
+ color: aliceblue;
+  background-color: rgb(12, 22, 29);
+  font-weight: bold;
  } 
  .redes-sociais{
   width: 50px;
-margin-right: 50px;
+margin-right: 200px;
 
  }
  #seçao{
@@ -218,6 +222,11 @@ margin-right: 50px;
  }
  .projetos{
  
+ }
+ main{
+  margin-top: 300px;
+  border: solid 2px;
+  font-size: 1.7em;
  }
  
 }
