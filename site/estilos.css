@@ -91,6 +91,7 @@ height: 100%;
 .artigo-p{
   color: rgb(255, 255, 255);
   font-size: 1.4em;
+  margin-top: 100px;
 }
 .artigo-h1{  color: rgb(4, 162, 241);
   background-color: rgba(0, 0, 0, 0.048);
@@ -129,7 +130,9 @@ article{
  
 }
 #art-2{
-  background-color: antiquewhite;
+ 
+ 
+  
 }
 
 #botao{
