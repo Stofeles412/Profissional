@@ -109,7 +109,7 @@ height: 100%;
 
 #pe-do-site{
   padding: 20px;
-  font-size: 1.1em;
+  font-size: 1.5em;
   text-align: center;
  color: aliceblue;
   background-color: rgb(12, 22, 29);
@@ -174,12 +174,12 @@ a{
   
 }
 .art-formaçao{
-  width: 90vw;
+  width: 100vw;
   background-color: rgba(5, 5, 5, 0.707);
   color: black;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.406);
   padding: 10px;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 @media screen and (min-width: 800px){
