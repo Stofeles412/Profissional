@@ -204,7 +204,9 @@ a{
   background-color: rgb(27, 147, 226);
  } 
  .redes-sociais{
+  width: 50px;
 margin-right: 50px;
+
  }
  #seçao{
   width: 90vw;
@@ -212,8 +214,10 @@ margin-right: 50px;
  }
  .projetos{
   width: 90vw;
+  
  }
- .img{
+ .projetos{
  
  }
+ 
 }
