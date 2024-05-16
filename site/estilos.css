@@ -52,13 +52,13 @@ h2{
 
 
 #seçao{
- width: 100%;
+ width: 90vw;
   line-height: 60px;
   padding: 30px;
   border-radius: 30px;
   border: solid 1px rgba(0, 0, 0, 0.403);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.437);
-  background-color: rgb(124, 127, 130);
+  background-color: rgba(0, 0, 0, 0.5);
   margin-top: 30px;
   text-align: justify;
   overflow: hidden;
@@ -202,10 +202,8 @@ a{
   #menu-botao{
       padding: 20px;
   }
-  .redes-sociais{
+  
    
-   
-  }
  #pe-do-site{
   font-size: 1.1em;
   text-align: center;
@@ -221,6 +219,7 @@ margin-right: 200px;
  }
  #seçao{
   width: 90vw;
+  background-color: rgba(0, 0, 0, 0.5);
  
  }
  .projetos{
