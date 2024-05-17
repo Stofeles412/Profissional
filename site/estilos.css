@@ -175,6 +175,7 @@ a{
 }
 .art-formaçao{
   width: 90%;
+  color: aliceblue;
   background-color: rgba(5, 5, 5, 0.707);
   color: black;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.406);
@@ -234,7 +235,6 @@ margin-right: 200px;
  .art-formaçao{
   width: 90vw;
   background-color: rgba(0, 0, 0, 0.707);
-  color: rgb(253, 253, 253);
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.406);
   padding: 10px;
  }
