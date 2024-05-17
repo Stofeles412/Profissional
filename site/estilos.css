@@ -3,23 +3,30 @@
   padding: 0;
 }
 
-header{
+header {
   padding: 50px;
- background-color: black;
+  background-color: black;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.335);
   border-radius: 50px;
-  display: none;
   line-height: 50px;
   font-weight: bold;
   text-transform: capitalize;
   color: rgb(6, 138, 254);
-font-size: 1.7em;
-overflow: hidden;
-margin-left: 50px;
-
-
-
+  font-size: 1.7em;
+  overflow: hidden;
+  margin-left: 50px;
+  opacity: 0; /* Inicialmente transparente */
+  transform: translateY(-50px); /* Inicialmente deslocado */
+  animation: fadeInSlideDown 1s forwards; /* Aplica a animação */
 }
+
+@keyframes fadeInSlideDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 #menu-botao, button{
   width: 50px;
@@ -34,8 +41,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(2, 63, 80);
-  width: 100vh;
-  background-color: rgb(255, 250, 250);
+  width: 100vw;
   overflow-x: hidden;
   background-color: rgb(195, 187, 177);
  
