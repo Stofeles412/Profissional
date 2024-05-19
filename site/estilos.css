@@ -4,6 +4,7 @@
 }
 
 header {
+  display: none;
   padding: 50px;
   background-color: black;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.335);
