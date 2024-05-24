@@ -5,7 +5,7 @@
 
 header {
   margin-bottom: 200px;
-  width: 70vw;
+  width: 90vw;
   display: none;
   padding: 50px;
   background-color: black;
@@ -202,7 +202,7 @@ a{
       background-image: linear-gradient(rgb(48, 50, 49), rgba(0, 0, 0, 0.559));
     
   }
-  body{ background-color: rgb(195, 187, 177);
+  body{  background-color: rgb(195, 187, 177);
    
   }
   ul, li{ 
