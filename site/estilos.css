@@ -6,7 +6,7 @@
 
 header {
   margin-bottom: 200px;
-  width: 90vw;
+  width: 90%;
   display: none;
   padding: 50px;
   background-color: black;
@@ -19,18 +19,18 @@ header {
   font-size: 1.7em;
   overflow: hidden;
   margin-left: 50px;
-  /*opacity: 0; 
+  opacity: 0; 
   transform: translateY(-50px); 
-  animation: fadeInSlideDown 1s forwards; suspeito q essa animação tirou a resposivitidade cell */
+  animation: fadeInSlideDown 1s forwards; 
 }
 
-/*@keyframes fadeInSlideDown {
+@keyframes fadeInSlideDown {
   to {
     opacity: 1;
     transform: translateY(0);
   }
-} isso também
-*/
+} 
+
 
 
 #menu-botao, button{
@@ -64,7 +64,7 @@ h2{
 
 
 #seçao{
- width: 90vw;
+ width: 90%;
   line-height: 60px;
   padding: 30px;
   border-radius: 30px;
@@ -89,7 +89,7 @@ margin-right: 100px;
   margin-top: 500px;
   margin-top: 400px;
  padding: 20px;
-width: 90vw;
+width: 90%;
 height: 100%;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.399);
 }
@@ -138,7 +138,7 @@ ul{
  
 }
 article{
-  width: 90vw;
+  width: 90%;
   border: solid 2px black;
   background-color: rgb(25, 40, 54);
   margin-top: 100px;
@@ -198,7 +198,7 @@ a{
 @media screen and (min-width: 800px){
   header{
     margin-bottom: 200px;
-      width: 50vw;
+      width: 50%;
       padding: 50px;
       border-radius: 50px;
       background-image: linear-gradient(rgb(48, 50, 49), rgba(0, 0, 0, 0.559));
@@ -221,7 +221,7 @@ a{
  #pe-do-site{
   font-size: 1.1em;
   text-align: center;
- width: 100vw;
+ width: 100%;
  color: aliceblue;
   background-color: rgb(12, 22, 29);
   font-weight: bold;
@@ -233,7 +233,7 @@ margin-top: 100px;
 
  }
  #seçao{
-  width: 90vw;
+  width: 90%;
   background-color: rgba(0, 0, 0, 0.5);
  
  }
