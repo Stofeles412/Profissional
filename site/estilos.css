@@ -42,11 +42,10 @@ header {
  
 }
 body{
-  width: 100vw;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(2, 63, 80);
-  width: 100vw;
   overflow-x: hidden;
   background-color: rgb(195, 187, 177);
  
