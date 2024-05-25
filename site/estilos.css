@@ -19,17 +19,18 @@ header {
   font-size: 1.7em;
   overflow: hidden;
   margin-left: 50px;
-  opacity: 0; /* Inicialmente transparente */
-  transform: translateY(-50px); /* Inicialmente deslocado */
-  animation: fadeInSlideDown 1s forwards; /* Aplica a animação */
+  /*opacity: 0; 
+  transform: translateY(-50px); 
+  animation: fadeInSlideDown 1s forwards; suspeito q essa animação tirou a resposivitidade cell */
 }
 
-@keyframes fadeInSlideDown {
+/*@keyframes fadeInSlideDown {
   to {
     opacity: 1;
     transform: translateY(0);
   }
-}
+} isso também
+*/
 
 
 #menu-botao, button{
