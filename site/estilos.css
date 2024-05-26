@@ -43,8 +43,6 @@ header {
 }
 body{
   width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
   color: rgb(2, 63, 80);
   overflow-x: hidden;
   background-color: rgb(195, 187, 177);
@@ -141,7 +139,6 @@ article{
   border: solid 2px black;
   background-color: rgb(25, 40, 54);
   margin-top: 100px;
- 
  
 }
 
