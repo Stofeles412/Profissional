@@ -76,7 +76,7 @@ h2{
 .redes-sociais{
   display: flex;
 text-align: center;
-margin-right: 40px; /* alterei de 100 para 10px tentando resolver problema de resposividade*/
+margin-right: 40px; 
   width: 40px;
   margin-top: 100px;
  
@@ -109,6 +109,7 @@ height: 100%;
 }
 .link-botao{
   background-color: rgb(15, 157, 234);
+  border-radius: 30px;
   border: 0;
   width: 200px;
   margin-top: 50px;
