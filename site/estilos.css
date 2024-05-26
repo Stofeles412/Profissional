@@ -77,8 +77,8 @@ h2{
 .redes-sociais{
   display: flex;
 text-align: center;
-margin-right: 10px; /* alterei de 100 para 10px tentando resolver problema de resposividade*/
-  width: 70px;
+margin-right: 30px; /* alterei de 100 para 10px tentando resolver problema de resposividade*/
+  width: 45px;
   margin-top: 100px;
  
 }
