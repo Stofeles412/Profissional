@@ -17,11 +17,11 @@ var imagens = document.getElementsByClassName('img');
 if (imagens.length > 0) {
 if (isAmpliado) {
     // Se já estiver ampliado, volta ao tamanho original
-    imagens[0].style.width = "500px";
+    imagens[0].style.width = "200px";
     isAmpliado = false;
 } else {
     // Se não estiver ampliado, amplia para 500px
-    imagens[0].style.width = "800px";
+    imagens[0].style.width = "400px";
     isAmpliado = true;
 }
 }
@@ -33,10 +33,10 @@ var zoom = false
 function almentarimg(){
 var ampliar = window.document.getElementsByClassName('img')
 if(!zoom){
-ampliar[1].style.width = '500px'
+ampliar[1].style.width = '200px'
 zoom = true
 }else{
-ampliar[1].style.width = "800px"
+ampliar[1].style.width = "400px"
 zoom = false
 }
 }
@@ -45,10 +45,10 @@ var mais = false
 function lupaimg(){
 var lupa = window.document.getElementsByClassName('img')
 if(!mais){
-lupa[2].style.width = "500px"
+lupa[2].style.width = "200px"
 mais = true
 }else{
-lupa[2].style.width = "800px"
+lupa[2].style.width = "400px"
 mais = false
 }
 }
