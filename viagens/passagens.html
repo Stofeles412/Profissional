@@ -14,7 +14,7 @@
    
     <nav id="itens">
      
-       
+        
         <ul>
             <li class="list"><a href="#">viajens</a></li>
             <li class="list"><a href="#">hoteis</a></li>
@@ -22,32 +22,33 @@
             <li class="list"><a href="#">restaurante</a></li>
 
         </ul>
+      
+        
     </nav>
-   <article id="opçoes">
-    <h2>incluir adicionais</h2>
 
-    <label for="yk">hotel</label>
-    <input type="checkbox" name="yk" id="yk">
+    <article id="opçoes"> 
+    <form action="cadastro.php" method="get">
 
-    <label for="ma">carro</label>
-    <input type="checkbox" name="ma" id="ma">
+        <label for="email">email</label>
+        <input type="email" value="email" id="email" name="email"> 
 
+        <label for="nome">nome</label>
+        <input type="text" value="nome" id="nome" name="nome"> 
 
-    <label for="tokyo">roupas</label>
-    <input type="checkbox" name="tokyo" id="tokyo">
+        <label for="sobre-n">sobre</label>
+        <input type="text" value="sobre-nome" id="sobre-n" name="sobre-n"> 
 
-    <label for="tr"></label>
-    <input type="checkbox" name="tr" id="tr">
-    
-    <p>voo-ida</p>
-    <input type="date" name="ida" id="ida" required>
-    
-    <p>volta</p>
-    <input type="date" name="volta" id="volta" required>
-    
-   </article>
+        <label for="senha">senha</label>
+        <input type="password" id="senha" name="senha"> 
+
+        <input type="submit" value="cadastrar"> 
+    </form>
+</article>
+
     <div id="card-1">
 <h2>nova york</h2>
+
+
 
 <p>Passagens a partir de</p>
 
