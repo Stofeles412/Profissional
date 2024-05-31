@@ -26,7 +26,13 @@ header{
     height: 50px;
     
  }
-   
+ #opçoes{
+    text-align: center;
+    background-color: rgb(47, 149, 187);
+ }
+  input{
+    margin: 50px;
+  } 
    
    
    ul,li , a{
