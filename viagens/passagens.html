@@ -11,7 +11,7 @@
         <h1>Logo</h1>
         <button onclick="openMenu()"><img src="../imagens/menu-aberto (1).png" alt="menu" id="icone-menu"></button>
     </header>
-   
+
     <nav id="itens">
      
         
@@ -22,12 +22,15 @@
             <li class="list"><a href="#">restaurante</a></li>
 
         </ul>
-      
-        
-    </nav>
+        <input type="button" value="cadastrar" onclick="openForm()" class="botao-cad">
 
+       <input type="button" value="entar" onclick="openLogin()" class="botao-cad">
+       
+    </nav>
+   
     <article id="opçoes"> 
-    <form action="cadastro.php" method="get">
+     
+    <form action="cadastro.php" method="get" id="form-nav">
 
         <label for="email">email</label>
         <input type="email" value="email" id="email" name="email"> 
@@ -44,6 +47,19 @@
         <input type="submit" value="cadastrar"> 
     </form>
 </article>
+
+<form action="entrar.php" method="get" id="form-login">
+    <label for="acessar">Email</label>
+    <input type="email" required>
+     
+    <label for="name">Nome</label>
+    <input type="text" value="Nome" id="name" name="name" required>
+
+    <label for="senh">senha</label>
+    <input type="password" id="senh" name="senh" required>
+
+    <input type="submit" value="entrar">
+</form>
 
     <div id="card-1">
 <h2>nova york</h2>
@@ -96,19 +112,9 @@
     <footer>
 
     </footer>
+  
  
 </body>
-<script>
-    function openMenu(){
-    var abrir = window.document.getElementById('itens')
-    var icone = window.document.getElementById('icone-menu')
-    
-    if (abrir.style.display == 'none'){
-        abrir.style.display = 'block'
-    }else{
-        abrir.style.display = 'none'
-    }
-    }
-</script>
+<script src="javascript.js"></script>
 </html>
 

@@ -21,18 +21,18 @@ header{
    
  nav{
     margin-bottom: 100px;
-    background-color: rgb(73, 205, 245);
+    background-color: rgb(4, 58, 89);
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.482);
     text-align: center;
-    height: 50px;
+    height: 50%;
     
  }
  #opçoes{
+    border-radius: 30px;
     margin: auto;
-    border: solid 1px rgb(0, 0, 0);
     width: 50%;
     height: 100%;
-    background-color: rgb(89, 87, 87);
+    background-color: rgba(87, 89, 89, 0.329);
  }
  input{
    margin: 20px;
@@ -41,6 +41,7 @@ header{
    background-color: rgb(76, 78, 80);
  }
  form{
+    display: none;
     padding: 30px;
     margin: auto;
     height: 100%;
@@ -48,14 +49,23 @@ header{
     background-color: aliceblue;
     border: solid 2px black;
  }
+ #form-nav{
+    display: none;
+ }
+ #form-login{
+    display: none;
+ }
+ .botao-cad{
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgb(4, 44, 56);
+ }
  
- 
-
    ul,li , a{
     text-decoration: none;
     font-size: 1.1em;
     font-weight: bold;
-    color: black;
+    color: rgb(0, 231, 235);
     display: inline;
     text-transform: capitalize;
     line-height: 50px;
@@ -68,11 +78,10 @@ header{
    
    }
  a:hover{
-background-color: rgb(3, 41, 117);
-color: aliceblue;
-text-decoration: underline;
+    transition: .5;
+color: rgb(6, 125, 230);
 border-radius: 100px;
-padding: 5px;
+
 
 
 }
