@@ -166,12 +166,17 @@ p{
 .valor{
     margin-top: 20px;
     text-decoration: underline;
-    color: rgb(43, 0, 255);
+    color: rgb(176, 174, 174);
    
     
 }
 img, button{
     display: none;
+}
+footer, p{
+    color: rgb(254, 254, 254);
+    background-color: black;
+    text-align: center;
 }
 @media screen and (max-width: 850px){
     #itens{
@@ -204,4 +209,8 @@ a:hover{ background-color: rgba(252, 252, 252, 0);
     .card-botao{
         margin-left: 30px;
     }
+    .botao-cad{
+        display: block;
+    } 
+    
 }
