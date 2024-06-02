@@ -32,7 +32,7 @@ header{
     margin: auto;
     width: 50%;
     height: 100%;
-    background-color: rgba(87, 89, 89, 0.329);
+    background-color: rgba(87, 89, 89, 0.671);
  }
  input{
    margin: 20px;
@@ -47,13 +47,17 @@ header{
     height: 100%;
     width: 50%;
     background-color: aliceblue;
-    border: solid 2px black;
+    border: solid 1px black;
  }
  #form-nav{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.594);
     display: none;
  }
  #form-login{
+   box-shadow: 5px 5px 5px black;
     display: none;
+    width: 50%;
+    height: 50%;
  }
  .botao-cad{
     padding: 10px;
