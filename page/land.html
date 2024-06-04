@@ -9,24 +9,19 @@
             font-family: Arial, Helvetica, sans-serif;
             margin: 0;
             padding: 0;
+       
         }
         body {
             background-color: rgb(253, 254, 255);
             width: 100vw;
             height: 100vh;
             position: relative;
-            overflow: hidden; 
+            overflow-x: hidden; 
         }
-        #live-back, video {
-            position: absolute;
-            z-index: -1;
-           /* isso que estar causando problemas de tamanho  
-           top: 0;
-            left: 0;
-           width: 100%;
-            height: 100%;  */   
+         
+         
              
-        }
+        
         #div-texto, #div-ul {
             position: relative;
             text-align: center;
@@ -37,7 +32,7 @@
         }
         h1 {
             text-shadow: 5px 5px 3px rgb(0, 0, 0);
-            font-size: 3.5em;
+            font-size: 4.5em;
         }
         p {
            background-color: rgba(0, 0, 0, 0.762);
@@ -60,7 +55,7 @@
         #div-ul ul li a {
             color: rgb(249, 241, 7); 
             text-decoration: none; 
-            font-size: 1.2em; 
+            font-size: 1.5em; 
         }
         a:hover{
            padding: 5px;
@@ -91,14 +86,18 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+       background-attachment: fixed;
        height: 100%;
+        }
+        #main-containe{
+        background-image: url(../imagens/imgem-tokyo.jpg);
         }
      
 
       
         @media (max-width: 600px) {
     h1 {
-        font-size: 1.5em;
+        font-size: 4em;
     }
     body{
         height: 100vh;
@@ -112,6 +111,7 @@
     }
     
     #div-ul ul li {
+        font-size: 1.5em;
         margin: 30px ;
     }
     
@@ -122,10 +122,8 @@
     .botao {
         font-size: 1em;
         width: 120px;
-    }
-    #live-back, video{
-        height: 100%;
-      width: 100%;
+    
+
         
     }
     #fundo{
@@ -148,26 +146,38 @@
 
     <div id="div-ul">
         <ul>
-            <li><a href="https://stofeles412.github.io/Profissional/jogos/jogos.html" target="_blank">ps4</a></li>
+            <li><a href="https://www.playstation.com/pt-br/" target="_blank">playstation</a></li>
 
-            <li><a href="https://my1.konami.net/pt" target="_blank">konami</a></li>
+            <li><a href="https://www.nintendo.com/pt-br/" target="_blank">Nitendo</a></li>
 
 
+            <li><a href="https://www.xbox.com/pt-BR" target="_blank">xbox</a></li>
 
-            <li><a href="https://stofeles412.github.io/Profissional/viagens/passagens.html">steam</a></li>
+            <li><a href="https://store.steampowered.com/">steam</a></li>
         </ul>
     </div>
     
     <div id="div-texto">
         <h1>SILENT HILL 2</h1>
+
         <p>embarque na aventura, nesssa recriação de silit hill 2</p>
        
 
       <a href="https://store.steampowered.com/app/2124490/SILENT_HILL_2/" target="_blank" class="botao-a"><button class="botao">Adquira</button></a>
+
+     
     </div>
 </nav>
+
+<main id="main-containe">
+    <h2>historia</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis error dicta, officia dolorum vel incidunt necessitatibus rem saepe corporis molestiae eum officiis illo, quod omnis? Nam asperiores iste expedita inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dignissimos delectus eos nihil voluptates facere perspiciatis repudiandae nulla iusto quia fugit pariatur eveniet nostrum tenetur, ex similique ab recusandae aut!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis error dicta, officia dolorum vel incidunt necessitatibus rem saepe corporis molestiae eum officiis illo, quod omnis? Nam asperiores iste expedita inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dignissimos delectus eos nihil voluptates facere perspiciatis repudiandae nulla iusto quia fugit pariatur eveniet nostrum tenetur, ex similique ab recusandae aut!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis error dicta, officia dolorum vel incidunt necessitatibus rem saepe corporis molestiae eum officiis illo, quod omnis? Nam asperiores iste expedita inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dignissimos delectus eos nihil voluptates facere perspiciatis repudiandae nulla iusto quia fugit pariatur eveniet nostrum tenetur, ex similique ab recusandae aut!<
+</main>
 <footer>
-   <img src="../imagens/icons8-css3-480.png" alt="">
+ 
 </footer>
 </body>
 </html>
