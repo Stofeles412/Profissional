@@ -8,7 +8,7 @@
 
 }
 body {
-    background-color: rgb(253, 254, 255);
+    background-color: rgb(0, 0, 0);
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -16,8 +16,6 @@ body {
 }
  
  
-     
-
 #div-texto, #div-ul {
     position: relative;
     text-align: center;
@@ -37,10 +35,17 @@ p {
     margin-top: 50px; 
 }
 .p-video{
+    margin-top: 200px;
 width: 50%;
 color: aliceblue;
 background-color: rgba(0, 0, 0, 0.488);
-line-height: 80px;
+line-height: 50px;
+}
+.p-main{
+    color: rgb(255, 254, 251);
+    background-color: rgba(0, 0, 0, 0.45);
+    line-height: 60px;
+    width: 50%;
 }
 #div-ul {
     list-style: none; 
@@ -84,13 +89,13 @@ a:hover{
 .botao-a:hover{
     background-color: transparent;
 }
-#fundo{
-    background-image: url(../imagens/wallpapersden.com_silent-hill-2-remake-4k_2340x1080.jpg);
+#fundo{ background-image: url(../imagens/wallpapersden.com_silent-hill-2-remake-4k_2340x1080.jpg);
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
 height: 100%;
+width: 100%;
 }
 video{
     position: relative;
@@ -146,6 +151,7 @@ line-height: 50px;
     width: 100%;
 }
 #div-ul ul li {
+    width: 50%;
 font-size: 1.5em;
 margin: 30px ;
 }
@@ -166,6 +172,7 @@ background-image: url(../imagens/wallpapersden.com_silent-hill-2-remake-4k_2340x
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+width: 100%;
 height: 100%;
 }
 .p-video{
