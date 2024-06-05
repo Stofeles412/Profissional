@@ -132,17 +132,17 @@ width: 100vw;
 
 p {
 font-size: 0.9em;
-margin-top: 20px;
 
 }
 .p-video{
+    margin-top: 50px;
     width: 50%;
     height: 100%;
   background-color: transparent;
  
 }
 .p-main{
-    margin-top: 200px;
+    margin-top: 30px;
 }
 #main-video{
     width: 220%;
@@ -177,5 +177,8 @@ height: 100%;
 }
 .p-video{
     background-color: rgba(0, 0, 0, 0.445);
+}
+video{
+width: 100%;
 }
 }
