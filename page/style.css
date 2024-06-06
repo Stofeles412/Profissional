@@ -148,7 +148,7 @@ font-size: 0.9em;
     width: 220%;
 }
 #main-texto{
-    background-size: contain;
+    background-size: cover;
    height: 100%;
     width: 100%;
 }
@@ -173,7 +173,7 @@ width: 120px;
 background-image: url(../imagens/wallpapersden.com_silent-hill-2-remake-4k_2340x1080.jpg);
 background-repeat: no-repeat;
 background-position: center;
-background-size: auto;
+background-size: cover;
 width: 100%;
 height: 100%;
 }
