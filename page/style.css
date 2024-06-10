@@ -156,7 +156,7 @@ font-size: 0.9em;
     margin: auto;
     background-size: cover;
    height: 100%;
-    width: 100%;
+    width: 220%;
 }
 #div-ul ul li {
     width: 50%;
@@ -180,7 +180,7 @@ background-image: url(../imagens/wallpapersden.com_silent-hill-2-remake-4k_2340x
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-width: 200%;
+width: 220%;
 height: 100%;
 }
 .p-video{
