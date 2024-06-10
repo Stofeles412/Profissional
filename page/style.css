@@ -128,7 +128,7 @@ footer{
 
 @media (max-width: 600px) {
 h1 {
-font-size: 4em;
+font-size: 6em;
 }
 body{
 height: 100vh;
@@ -188,5 +188,8 @@ height: 100%;
 }
 video{
 width: 100%;
+}
+footer{
+    width: 220%;
 }
 }
