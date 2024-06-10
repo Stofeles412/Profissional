@@ -153,9 +153,10 @@ font-size: 0.9em;
     width: 220%;
 }
 #main-texto{
+    margin: auto;
     background-size: cover;
    height: 100%;
-    width: 200%;
+    width: 100%;
 }
 #div-ul ul li {
     width: 50%;
