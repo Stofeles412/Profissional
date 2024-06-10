@@ -97,7 +97,7 @@ background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
-width: 200%;
+width: 100%;
 }
 video{
     position: relative;
@@ -136,7 +136,7 @@ width: 100vw;
 }
 
 p {
-font-size: 2em;
+font-size: 1em;
 
 }
 .p-video{
@@ -147,7 +147,7 @@ font-size: 2em;
  
 }
 .p-main{
-    margin-top: 30px;
+
 }
 #main-video{
    width: 220%;
@@ -160,16 +160,16 @@ font-size: 2em;
 }
 #div-ul ul li {
     width: 50%;
-font-size: 2.5em;
+font-size: 1.5em;
 margin: 30px ;
 }
 
 #div-ul ul li a {
-font-size: 2.5em;
+font-size: 1.5em;
 }
 
 .botao {
-font-size: 2em;
+font-size: 3em;
 width: 120px;
 
 
@@ -184,6 +184,7 @@ width: 220%;
 height: 100%;
 }
 .p-video{
+    width: 50%;
     background-color: rgba(0, 0, 0, 0.445);
 }
 video{
