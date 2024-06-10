@@ -42,6 +42,9 @@ p {
     font-size: 1.5em;
     margin-top: 50px; 
 }
+img{
+    width: 40px;
+}
 .p-video{
 width: 50%;
 color: aliceblue;
