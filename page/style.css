@@ -140,14 +140,14 @@ font-size: 1em;
 
 }
 .p-video{
-    margin-top: 50px;
+    font-size: 1.6em;
     width: 50%;
     height: 100%;
   background-color: transparent;
  
 }
 .p-main{
-
+font-size: 1.6em;
 }
 #main-video{
    width: 220%;
@@ -170,6 +170,7 @@ font-size: 1.9em;
 
 .botao {
 font-size: 3em;
+height: 100px;
 width: 200px;
 
 
