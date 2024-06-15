@@ -5,9 +5,5 @@ var peso = window.document.getElementById('peso');
 var resposta = window.document.getElementById('resposta')
 res = altura/peso
 
-if(res <= 30){
-  resposta.document.write `seu peso é ${peso} estar magro`
-}else{
-    resposta = "obeso"
-}
+window.alert `seu peso é ${res}`
 }
