@@ -3,6 +3,12 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(131, 150, 160);
+}
 #nav{
-    background-color: antiquewhite;
+    background-color: rgb(170, 121, 57);
+}
+#main-1{
+   background-color: aqua;
 }
