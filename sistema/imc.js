@@ -1,9 +1,23 @@
-function callImc(){
-var idade = window.document.getElementById('idade');
-var altura = window.document.getElementById('altura');
-var peso = window.document.getElementById('peso');
-var resposta = window.document.getElementById('resposta')
-res = altura/peso
+function callImc() {
+    var idade = document.getElementById('idade').value;
+    var altura = document.getElementById('altura').value;
+    var peso = document.getElementById('peso').value;
+    var resposta = document.getElementById('resposta');
 
-window.alert `seu peso é ${res}`
+    // Convertendo strings para números
+    altura = parseFloat(altura);
+    peso = parseFloat(peso);
+
+    // Verificando se os valores são números válidos
+    if (isNaN(altura) || isNaN(peso) || altura <= 0 || peso <= 0) {
+        window.alert('Por favor, insira valores válidos para altura e peso.');
+        return;
+    }
+
+    // Calculando o IMC
+    var res = peso / (altura * altura);
+
+    // Exibindo o resultado
+    window.alert(`Seu IMC é ${res.toFixed(2)}`);
+    resposta.textContent = `Seu IMC é ${res.toFixed(2)}`;
 }
