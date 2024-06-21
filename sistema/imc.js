@@ -18,6 +18,5 @@ function callImc() {
     var res = peso / (altura * altura);
 
     // Exibindo o resultado
-    window.alert(`Seu IMC é ${res.toFixed(2)}`);
-    resposta.textContent = `Seu IMC é ${res.toFixed(2)}`;
+    resposta.textContent = `com ${idade} anos de idade, Seu IMC é ${res.toFixed(2)}`;
 }

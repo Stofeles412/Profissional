@@ -4,13 +4,22 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow-x: hidden;
+    background-color: rgb(241, 232, 220);
+}
+h1{ margin-bottom: 200px;
+    text-align: center;
+    color: rgb(7, 124, 160);
+    font-size: 3em;
+}
 #formImc{
     color: rgb(239, 236, 231);
     height: 500px;
 }
 input{
 border: 0;
-background-color: rgb(2, 88, 125);
+background-color: rgb(40, 92, 114);
 text-align: center;
 width: 20%;
 height: 30px;
@@ -21,10 +30,66 @@ margin-top: 50px;
 form{
     padding: 30px;
     border-radius: 50px;
-    background-color: rgb(2, 2, 40);
+    background-color: rgb(37, 37, 44);
+    font-weight: bold;
     margin: auto;
-    width: 50%;
+    width: 80%;
     height: 100%;
     border: solid 1px black;
     text-align: center;
+    margin-top: 200px;
+}
+#botao{
+    font-weight: bold;
+    border: 0;
+    padding: 10px;
+    color: azure;
+    background-color: black;
+}
+#resposta{
+    padding: 20px;
+    color: aliceblue;
+    font-weight: bold;
+}
+table, th, td{
+    font-weight: bold;
+    padding: 10px;
+    width: 700px;
+    height: 50px;
+    border-collapse: collapse;
+    margin: auto;
+    border: solid 1px black;
+    background-color: rgb(66, 66, 66);
+}
+table{
+    width: 80%;
+    margin-bottom: 200px;
+    margin-top: 400px;
+}
+.homem{
+    background-color: aqua;
+}
+.mulher{
+    background-color: pink;
+}
+#resposta{
+    border-radius: 30px;
+    text-align: center;
+    color: black;
+ 
+}
+p{   text-align: center;
+     font-size: 1.3em;
+    color: black;
+    font-weight: bold;
+    line-height: 50px;
+    width: 70%;
+    margin-top: 60px;
+}
+#div-tabela{
+    border: solid 2px rgba(0, 0, 0, 0.488);
+}
+footer{
+    margin-top: 400px;
+    background-color: rgb(132, 101, 54);
 }
