@@ -28,9 +28,10 @@ display: block;
 margin-top: 50px;
 }
 form{
+    color: azure;
     padding: 30px;
     border-radius: 50px;
-    background-color: rgb(37, 37, 44);
+    background-color: rgb(61, 61, 65);
     font-weight: bold;
     margin: auto;
     width: 80%;
