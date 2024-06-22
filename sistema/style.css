@@ -41,6 +41,7 @@ form{
     margin-top: 200px;
 }
 #botao{
+    cursor: pointer;
     font-weight: bold;
     border: 0;
     padding: 10px;
@@ -60,7 +61,7 @@ table, th, td{
     border-collapse: collapse;
     margin: auto;
     border: solid 1px black;
-    background-color: rgb(66, 66, 66);
+    background-color: rgba(66, 66, 66, 0.472);
 }
 table{
     width: 80%;
@@ -86,11 +87,13 @@ p{   text-align: center;
     line-height: 50px;
     width: 70%;
     margin-top: 60px;
+    padding: 20px;
 }
 #div-tabela{
     border: solid 2px rgba(0, 0, 0, 0.488);
 }
 footer{
     margin-top: 400px;
-    background-color: rgb(132, 101, 54);
+    color: aliceblue;
+    background-color: rgb(148, 148, 148);
 }
