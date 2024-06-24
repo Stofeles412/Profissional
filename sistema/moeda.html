@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coverter dolar</title>
+</head>
+<body>
+    <nav>
+       <h1>conversão de moedas</h1>
+
+    </nav>
+    <div>
+        <form method="get" onsubmit="conversao()">
+          <input type="number" placeholder="valor em reias R$" name="reais" id="reais">
+          <input type="number" placeholder="valor em dolar $" name="dolar" id="dolar">
+
+          <input type="submit" value="converter">
+        </form>
+    </div>
+    <div>
+        <p id="resposta">resposta...</p>
+    </div>
+  <script>
+    function conversao(){
+        var reais =  window.document.getElementById("reais")
+        var dolar = window.document.getElementById("dolar")
+        var resposta =window.document.getElementById("resposta")
+        var valorReais = parseFloat(reais.value)
+        var valorDolar = parseFloat(dolar.value)
+        resposta = valorReais/valorDolar
+        document.write (`a resposta é ${resposta}` )
+    }
+  </script>
+</body>
+</html>
