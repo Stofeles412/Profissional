@@ -29,6 +29,7 @@ margin-top: 50px;
 }
 form{
     color: azure;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.486);
     padding: 30px;
     border-radius: 50px;
     background-color: rgb(61, 61, 65);
