@@ -3,6 +3,20 @@
   margin: 0;
   padding: 0;
 }
+html{
+ scroll-behavior: smooth;
+}
+menu{
+  width: 100%;
+  position: fixed;
+  padding: 15px;
+  box-shadow: 3px 3px 3px black;
+  background-color: rgba(78, 73, 73, 0.285);
+}
+.a-navegacao{
+  margin: 50px;
+  color: rgb(0, 194, 243);
+}
 
 header {
   margin-bottom: 200px;
@@ -45,7 +59,6 @@ body{
   color: rgb(2, 63, 80);
   overflow-x: hidden;
   background-color: rgb(195, 187, 177);
- 
   
 
 }
@@ -71,6 +84,7 @@ h2{
   text-align: justify;
   overflow: hidden;
   font-size: 2em;
+ 
  
 }
 .redes-sociais{
@@ -193,14 +207,24 @@ a{
 
 @media screen and (min-width: 800px){
   header{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
       width: 50%;
       padding: 50px;
       border-radius: 50px;
       background-image: linear-gradient(rgb(48, 50, 49), rgba(0, 0, 0, 0.559));
     
   }
-  body{  background-color: rgb(195, 187, 177);
+  menu{
+   width: 100%;
+    background-color: rgb(70, 67, 65);
+  }
+  .a-navegacao{
+    color: rgb(0, 194, 243);
+  }
+    
+    
+  
+  body{   background-color: rgb(195, 187, 177);
    
   }
   ul, li{ 
@@ -211,6 +235,7 @@ a{
   }
   #menu-botao{
       padding: 20px;
+      margin-top: 100px;
   }
   
    

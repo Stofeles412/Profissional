@@ -98,10 +98,13 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.453);
     height: 40px;
     width: 200px;
+    transition: .6s;
+    cursor: pointer;
+   
 }
 .botao:hover{
     width: 60%;
-    transition: .2s;
+    transition: .6s;
     color: rgb(0, 0, 0);
     background-color: rgba(127, 126, 124, 0.59);
 }

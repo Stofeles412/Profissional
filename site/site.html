@@ -9,7 +9,15 @@
     <link rel="stylesheet" href="javascript.js">
 </head>
 <body>
-
+  
+  
+    <menu>
+        <ul>
+            <li><a href="#seçao" class="a-navegacao">seção</a></li>
+            <li><a href="#art-formacao" class="a-navegacao">formação</a></li>
+            <li><a href="#projetos" class="a-navegacao">projetos</a></li>
+        </ul>
+    </menu>
     <button onclick="openMenu()">
         <img src="../imagens/pra-baixo.png" alt="menu-icon" id="menu-botao">
     </button>
@@ -18,7 +26,10 @@
 
         <p>Olá, me chamo Fernando, sou estudante de Analise e Desenvolvimento de Sistemas, aqui estou em busca de uma primeira oportunidade, no mercado de ti</p>
 
+       
+
     </header>
+  
     <div id="seçao">
         <h2>com oque trabalho ?</h2>
         <p>tenho conhecimentos em HTML CSS, Java Script, Mysql e PHP</p>
@@ -42,7 +53,7 @@
     </div>
 
     <main>
-     <article class="art-formaçao">
+     <article class="art-formaçao" id="art-formacao">
         <h2>Formação</h2>
         <p>uniasselvia 2024-2026</p>
         <p>analise e desenvolvimento de Sistemas</p>
@@ -55,7 +66,7 @@
     </main>
 
 
-    <article class="projetos">
+    <article class="projetos" id="projetos">
         <h1 class="artigo-h1">meus projetos</h1>
         <h2 class="artigo-h2">compra de passagens</h2>
         <img src="../imagens/Captura de tela 2024-04-25 191352.png" alt="" width="300px" class="img" onclick="ampliarImg()" >
@@ -98,6 +109,7 @@
      
      
     </article>
+  
    
     <div id="pe-do-site">
     <p> Ⓒ 2024 Fernando Stofeles, todos direitos reservados.</p>
