@@ -1,32 +1,17 @@
-// script.js
-
-document.addEventListener('DOMContentLoaded', () => {
-    const cards = document.querySelectorAll('.card');
-    const prevButton = document.getElementById('prevCard');
-    const nextButton = document.getElementById('nextCard');
-    
-    let currentIndex = 0;
-  
-    function showCard(index) {
-      cards.forEach((card, i) => {
-        card.classList.toggle('active', i === index);
-      });
-    }
-  
-    function showNextCard() {
-      currentIndex = (currentIndex + 1) % cards.length;
-      showCard(currentIndex);
-    }
-  
-    function showPrevCard() {
-      currentIndex = (currentIndex - 1 + cards.length) % cards.length;
-      showCard(currentIndex);
-    }
-  
-    prevButton.addEventListener('click', showPrevCard);
-    nextButton.addEventListener('click', showNextCard);
-  
-    // Inicializa o primeiro cartão como visível
-    showCard(currentIndex);
-  });
-  
+function verMais(){
+var div1 = document.getElementById("card1")
+var div2 = document.getElementById("card2")
+var div3 = document.getElementById("card3")
+div4 = document.getElementById("div4")
+if(div1.classList.contains("hidden")){
+  div1.classList.remove("hidden");
+  div2.classList.add("hidden");
+  div3.classList.remove("hidden")
+  div4.classList.add("hidden")
+}else{
+  div1.classList.add("hidden");
+  div2.classList.remove("hidden")
+  div3.classList.add("hidden")
+  div4.classList.remove("hidden")
+}
+}

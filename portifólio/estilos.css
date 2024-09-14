@@ -69,4 +69,7 @@ main{
     transition: 1s;
     background-color: rgb(42, 41, 41);
 }
+.hidden{
+    display: none;
+}
    
