@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navegação de imagens</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    main{
+        margin: auto;
+        width: 90%;
+        display: flex;
+        height: 400px;
+        background-color: rgb(100, 97, 97);
+    }
+    button{
+        background-color: black;
+        color: rgb(241, 249, 6);
+        padding: 20px;
+        font-size: 2em;
+    }
+    img{
+        width: 40%;
+    }
+    #img1{
+      height: 390px;
+border: solid 2px black;
+    }
+    #img2{
+        height: 390px;
+        border: solid 2px black; 
+    }
+    #img3{
+        height: 390px;
+        border: solid 2px black;
+    }
+    #img4{
+        height: 390px;
+        border: solid 2px black;
+    }
+    .hidden{
+        display: none;
+    }
+</style>
+<body>
+    <main>
+        <button onclick="verMais()"> < </button>
+        <div id="img1">
+            <h2>img 1</h2>
+            <img src="../imagens/Captura de tela 2024-04-25 191352.png" alt="" >
+        </div>
+
+        <div id="img2">
+            <h2>img 2</h2>
+            <img src="../imagens/imagem-nova york.jpg" alt="">
+        </div>
+
+        <div id="img3"  class="hidden">
+            <h2>img 3</h2>
+            <img src="../imagens/imagem-viagem.jpg" alt="">
+        </div>
+
+        <div id="img4"  class="hidden">
+            <h2>img 4</h2>
+            <img src="../imagens/imgem-tokyo.jpg" alt="" >
+        </div>
+
+        <button onclick="verMais()"> > </button>
+    </main>
+    <script>
+        function verMais(){
+            var img1 = document.getElementById("img1")
+            var img2 = document.getElementById("img2")
+            var img3 = document.getElementById("img3")
+            var img4 = document.getElementById("img4")
+            if(img1.classList.contains("hidden")){
+                img1.classList.remove("hidden")
+                img2.classList.remove("hidden")
+                img3.classList.add("hidden")
+                img4.classList.add("hidden")
+            }else{
+                img1.classList.add("hidden")
+                img2.classList.add("hidden")
+                img3.classList.remove("hidden")
+                img4.classList.remove("hidden")
+            }
+        }
+    </script>
+</body>
+</html>
