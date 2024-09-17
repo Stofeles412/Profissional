@@ -91,7 +91,21 @@ p{   text-align: center;
     padding: 20px;
 }
 #div-tabela{
+    width: 100%;
+    display: block;
     border: solid 2px rgba(0, 0, 0, 0.488);
+}
+#tabela{
+    width: 20%;
+    display: none;
+}
+.botao{
+    margin: auto;
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: black;
 }
 footer{
     margin-top: 400px;
