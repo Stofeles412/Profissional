@@ -3,8 +3,8 @@ function callImc() {
     var altura = document.getElementById('altura').value;
     var peso = document.getElementById('peso').value;
     var resposta = document.getElementById('resposta');
-
    
+
     altura = parseFloat(altura);
     peso = parseFloat(peso);
 
