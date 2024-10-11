@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Filmes</title>
+</head>
+<style>
+    #result{
+       background-color: rgba(0, 0, 0, 0.54);
+display: grid;
+margin: 50px;
+
+
+
+    }
+</style>
+<body>
+    <h1>Pesquisa de Filmes</h1>
+    <input type="text" id="search-input" placeholder="Digite o título do filme...">
+    <button id="search-button">Pesquisar</button>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('search-button').addEventListener('click', function() {
+            const searchTerm = document.getElementById('search-input').value;
+            const apiKey = '3b47fe44'; // Insira sua chave da API aqui
+            const url = `https://www.omdbapi.com/?s=${encodeURIComponent(searchTerm)}&apikey=${apiKey}`;
+    
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    const resultDiv = document.getElementById('result');
+                    resultDiv.innerHTML = '';
+
+        if (data.Response === 'True') {
+            data.Search.forEach(movie => {
+                            const poster = movie.Poster !== "N/A" ? movie.Poster : 'caminho/para/imagem/placeholder.jpg';
+                            const movieElement = document.createElement('div');
+                            movieElement.innerHTML = `
+                                <h3>${movie.Title} (${movie.Year})</h3>
+                                <img src="${poster}" alt="${movie.Title} Poster" style="width:150px; height:auto;">
+                            `;
+                            resultDiv.appendChild(movieElement);
+                        });
+                    } else {
+                        resultDiv.innerHTML = `<p>${data.Error}</p>`;
+                    }
+                })
+                .catch(error => {
+                    console.error('Erro:', error);
+                });
+        });
+    </script>
+</body>
+</html>
