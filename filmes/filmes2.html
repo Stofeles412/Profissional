@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Filmes</h1>
+    <main>
+        <input type="search" value="pesquisar..." id="barra-pesquisa">
+        <button id="botao-pesquisa" onclick="pesquisar()">pesquisar</button>
+    </main>
+    <script>
+        function pesquisar(){
+            const pesquisa = document.getElementById("barra-pesquisa").value;
+            botao = document.getElementById("botao-pesquisa")
+            const chaveApi = '3b47fe44'
+            const url = `https://www.omdbapi.com/?s=${encodeURIComponent(searchTerm)}&apikey=${apiKey}`;
+        }
+    </script>
+</body>
+</html>

@@ -35,11 +35,11 @@ margin: 50px;
 
         if (data.Response === 'True') {
             data.Search.forEach(movie => {
-                            const poster = movie.Poster !== "N/A" ? movie.Poster : 'caminho/para/imagem/placeholder.jpg';
-                            const movieElement = document.createElement('div');
-                            movieElement.innerHTML = `
-                                <h3>${movie.Title} (${movie.Year})</h3>
-                                <img src="${poster}" alt="${movie.Title} Poster" style="width:150px; height:auto;">
+            const poster = movie.Poster !== "N/A" ? movie.Poster : 'caminho/para/imagem/placeholder.jpg';
+            const movieElement = document.createElement('div');
+            movieElement.innerHTML = `
+          <h3>${movie.Title} (${movie.Year})</h3>
+                 <img src="${poster}" alt="${movie.Title} Poster" style="width:150px; height:auto;">
                             `;
                             resultDiv.appendChild(movieElement);
                         });
