@@ -97,11 +97,62 @@ background-color: black;
     transition: .5s;
     cursor: pointer;
     color: rgb(252, 252, 252);
-    background-color: black;
+    background-color: rgb(40, 39, 39);
 }
-
-
-
+#containe{
+    margin-top: 25%;
+    background-color: rgb(0, 94, 177);
+    width: 100vw;
+    display: flex;
+}
+div{
+    margin: 4%;
+    padding: 5px;
+    transition: .4s;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(100, 96, 96);
+  
+    width: 80%;
+    height: 600px;
+    border: solid 2px black;
+}
+div, h2, p{
+    color: aliceblue;
+}
+#card-1{
+    background-image: url(./page-img/pc-page.jpg);
+}
+#card-2{
+    background-image: url(./page-img/pc-page.jpg);
+}
+#card-3{
+    background-image: url(./page-img/pc-page.jpg);
+}
+#card-4{
+    background-image: url(./page-img/pc-page.jpg);
+}
+.botao-compra{
+    border-radius: 10px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.341);
+    transition: .5;
+}
+.botao-compra:hover{
+    width: 90%;
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+div:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
+    transform: scale(1.1);
+}
+footer{
+    color: white;
+    background-color: rgb(50, 48, 48);
+}
 @media screen and (max-width: 1000px){
     nav{
         width: 200%;
