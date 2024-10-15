@@ -103,6 +103,9 @@ background-color: black;
 
 
 @media screen and (max-width: 1000px){
+    nav{
+        width: 200%;
+    }
     nav,ul,li{
         display: inline-block;
       
