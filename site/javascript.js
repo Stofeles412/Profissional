@@ -52,3 +52,9 @@ lupa[2].style.width = "400px"
 mais = false
 }
 }
+
+AOS.init({
+    duration: 1000,  // Duração da animação em milissegundos
+    easing: 'ease-in-out',  // Tipo de easing (animação suave)
+    once: true  // A animação vai acontecer apenas uma vez
+});

@@ -150,6 +150,7 @@ ul{
  
 }
 article{
+  margin-left: 8%;
   width: 90%;
   border: solid 2px black;
   background-color: rgb(25, 40, 54);
