@@ -26,6 +26,7 @@ section{
     display: flex;
 }
 section, p{
+    color: black;
     padding: 5%;
     line-height: 50px;
     font-size: 1.3em;
@@ -113,7 +114,6 @@ div{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(100, 96, 96);
-  
     width: 80%;
     height: 600px;
     border: solid 2px black;
@@ -163,10 +163,19 @@ footer{
       
     }
     section, p{
-        padding: 30px;
+        padding: 50px;
       width: 200%;
     }
     button{
         width: 30%;
+    }
+    #containe{
+        padding: 50px;
+        width: 90%;
+        display: inline-block;
+    }
+    div{
+        padding: 100px;
+        height: 500px;
     }
 }
