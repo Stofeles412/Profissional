@@ -2,11 +2,8 @@
     padding: 0;
     margin: 0;
 }
-nav{
-    box-shadow: 3px 3px 3px black;
-    background-color: rgb(42, 41, 41);
-}
-nav, ul, li{
+
+ ul, li{
     padding: 20px;
     font-size: 1.3em;
     color: rgb(7, 141, 18);
@@ -26,7 +23,6 @@ section{
     display: flex;
 }
 section, p{
-    color: black;
     padding: 5%;
     line-height: 50px;
     font-size: 1.3em;
@@ -43,6 +39,9 @@ flex-direction: row;
 }
  #seçao-4{
     flex-direction: row-reverse;
+}
+.section-p{
+    color: black;
 }
 img{
     border-radius: 20px;
@@ -119,7 +118,7 @@ div{
     border: solid 2px black;
 }
 div, h2, p{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 }
 #card-1{
     background-image: url(./page-img/pc-page.jpg);
