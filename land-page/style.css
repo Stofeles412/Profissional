@@ -138,6 +138,7 @@ div::after{
 }
 
 div, h2, p{
+<<<<<<< Updated upstream
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.478);
     color: rgb(33, 207, 17);
 }
@@ -145,6 +146,9 @@ div,h2{
     padding: 3px;
    background-color: rgb(3, 2, 2);
    color: white;
+=======
+    color: rgb(0, 0, 0);
+>>>>>>> Stashed changes
 }
 #card-1{
     background-image: url(./page-img/ps5Pro.jpg);
