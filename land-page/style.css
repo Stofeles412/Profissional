@@ -213,6 +213,7 @@ footer{
         height: auto;
     }
     img{
-        width: 70%;
+       padding: 50px;
+        width: 50%;
     }
 }
