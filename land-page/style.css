@@ -213,6 +213,7 @@ footer{
         height: auto;
     }
     img{
+        height: auto;
         width: 100%;
     }
 }
