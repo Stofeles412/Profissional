@@ -198,7 +198,7 @@ footer{
       
     }
     section{
-        display: block;
+        display: flex;
         padding: 20px;
       width: 100%;
     }
@@ -214,7 +214,7 @@ footer{
         height: auto;
     }
     img{
-        width: 20%;
+        width: 50%;
         height: auto;
      
     }
