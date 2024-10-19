@@ -198,7 +198,7 @@ footer{
       
     }
     section{
-        display: block;
+        display: flex;
         padding: 20px;
       width: 100%;
     }
