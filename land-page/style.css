@@ -203,6 +203,19 @@ footer{
         padding: 20px;
       width: 100%;
     }
+
+    #seçao-1{
+        flex-direction: row;
+        }
+        #seçao-2{
+           flex-direction: row-reverse;
+        }
+        #seçao-3{
+            flex-direction: row;
+        }
+         #seçao-4{
+            flex-direction: row-reverse;
+        }
     button{
         width: 50%;
     }
@@ -216,7 +229,7 @@ footer{
     }
     img{
         flex: 1 1 100%;
-        width: 50%;
+        width: 70%;
         height: auto;
      
     }
