@@ -205,15 +205,19 @@ footer{
     }
 
     #seçao-1{
+        margin: auto;
         flex-direction: column;
         }
         #seçao-2{
+            margin: auto;
            flex-direction: column-reverse;
         }
         #seçao-3{
+            margin: auto;
             flex-direction: column;
         }
          #seçao-4{
+            margin: auto;
             flex-direction: column-reverse;
         }
     button{
