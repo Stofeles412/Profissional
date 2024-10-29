@@ -235,6 +235,17 @@ footer{
         flex: 1 1 100%;
         width: 70%;
         height: auto;
-     
+   
     }
+   .icone-pe{
+   display: flex;
+   }
+   ul{
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+   } 
+   footer{
+    width: 100%;
+   }
 }
