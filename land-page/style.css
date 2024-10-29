@@ -238,6 +238,7 @@ footer{
    
     }
    .icone-pe{
+    width: 70px;
    display: flex;
    }
    ul{
@@ -246,6 +247,7 @@ footer{
     display: flex;
    } 
    footer{
+    padding: 50px;
     width: 100%;
    }
 }
