@@ -2,7 +2,17 @@
     padding: 0;
     margin: 0;
 }
-
+header{
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.628);
+    padding: 50px;
+    background-color: rgb(44, 44, 49);
+}
+h3{
+ text-align: center;
+color: chartreuse;
+font-size: 1.3em;
+font-family: cursive;
+}
  ul, li{
     padding: 20px;
     font-size: 1.3em;
@@ -61,19 +71,20 @@ button{
     border: 0;
     margin: auto;
     width: 15%;
-    background-color: rgb(24, 165, 46);
+    background-color: rgb(6, 65, 15);
     display: block;
     font-weight: bold;
     padding: 10px;
     transition: .2s;
+    color: white;
 }
 .botao-1:hover{
     margin-right: 50%;
     width: 40%;
     transition: .5s;
     cursor: pointer;
-    color: rgb(252, 252, 252);
-    background-color: black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(8, 158, 23);
 }
 .botao-2:hover{
 margin-left: 40%;
@@ -81,7 +92,7 @@ width: 40%;
 transition: .5s;
 cursor: pointer;
 color: rgb(252, 252, 252);
-background-color: black;
+background-color: rgb(8, 158, 23);
 }
 .botao-3:hover{
     margin-right: 40%;
@@ -89,7 +100,7 @@ background-color: black;
     transition: .5s;
     cursor: pointer;
     color: rgb(252, 252, 252);
-    background-color: black;
+    background-color: rgb(8, 158, 23);
 }
 .botao-4:hover{
     margin-left: 40% ;
@@ -97,7 +108,7 @@ background-color: black;
     transition: .5s;
     cursor: pointer;
     color: rgb(252, 252, 252);
-    background-color: rgb(40, 39, 39);
+    background-color: rgb(8, 158, 23);
 }
 #containe{
     margin-top: 25%;
@@ -148,11 +159,11 @@ div,h2{
 }
 #card-1{
     background-image: url(./page-img/ps5Pro.jpg);
-   
-  
+
 }
 #card-2{
     background-image: url(./page-img/seriesS.avif);
+  
 }
 #card-3{
     background-image: url(./page-img/nitendoSwich.webp);
@@ -163,12 +174,13 @@ div,h2{
 .botao-compra{
     border-radius: 10px;
     width: 80%;
-    background-color: rgba(255, 255, 255, 0.341);
+    background-color: rgba(12, 10, 10, 0.341);
+    color: black;
     transition: .5;
 }
 .botao-compra:hover{
     width: 90%;
-    background-color: aliceblue;
+    background-color: rgb(10, 120, 216);
     transform: scale(1.1);
 }
 div:hover{
@@ -177,6 +189,7 @@ div:hover{
     transform: scale(1.1);
 }
 footer{
+    width: 100%;
     margin-top: 30%;
     color: white;
     background-color: rgb(50, 48, 48);
@@ -187,6 +200,7 @@ footer{
 .icone-pe:hover{
     cursor: pointer;
     width: 20%;
+    box-shadow: 3px 3px 10px rgba(11, 158, 166, 0.547);
 }
 @media screen and (max-width: 1000px) {
     nav {
