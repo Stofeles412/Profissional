@@ -3,9 +3,11 @@
     margin: 0;
 }
 header{
+    width: 100%;
+    margin-bottom: 20%;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.628);
     padding: 50px;
-    background-color: rgb(44, 44, 49);
+    background-color: rgb(35, 35, 36);
 }
 h3{
  text-align: center;
@@ -174,14 +176,17 @@ div,h2{
 .botao-compra{
     border-radius: 10px;
     width: 80%;
-    background-color: rgba(12, 10, 10, 0.341);
-    color: black;
+    background-color: rgba(12, 10, 10, 0.64);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
     transition: .5;
 }
 .botao-compra:hover{
     width: 90%;
     background-color: rgb(10, 120, 216);
+    color: black;
     transform: scale(1.1);
+    transition: .5s;
 }
 div:hover{
     cursor: pointer;
