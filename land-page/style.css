@@ -118,6 +118,9 @@ background-color: rgb(8, 158, 23);
     width: 100vw;
     display: flex;
 }
+.div-p{
+    min-height: 500px;
+}
 div{
     margin: 4%;
     padding: 5px;
