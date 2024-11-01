@@ -119,7 +119,7 @@ background-color: rgb(8, 158, 23);
     display: flex;
 }
 .div-p{
-height: 500px;
+min-height: 500px;
 }
 div{
     margin: 4%;
@@ -177,7 +177,6 @@ div,h2{
     background-image: url(./page-img/Steam-Deck-scaled.jpg);
 }
 .botao-compra{
-    margin-top: 89px;
     border-radius: 10px;
     width: 80%;
     background-color: rgba(12, 10, 10, 0.64);
