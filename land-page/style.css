@@ -119,7 +119,7 @@ background-color: rgb(8, 158, 23);
     display: flex;
 }
 .div-p{
-    min-height: 500px;
+height: 500px;
 }
 div{
     margin: 4%;
