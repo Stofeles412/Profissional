@@ -177,6 +177,7 @@ div,h2{
     background-image: url(./page-img/Steam-Deck-scaled.jpg);
 }
 .botao-compra{
+    margin-top: 89px;
     border-radius: 10px;
     width: 80%;
     background-color: rgba(12, 10, 10, 0.64);
@@ -185,7 +186,6 @@ div,h2{
     transition: .5;
 }
 .botao-compra:hover{
-    margin-top: 89px;
     width: 90%;
     background-color: rgb(10, 120, 216);
     color: black;
