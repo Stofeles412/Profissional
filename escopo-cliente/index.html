@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Cálculo de Custos do Carro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Cálculo de Custos do Carro</h1>
+        <form id="cost-form">
+            <label for="ipva">IPVA Anual (R$):</label>
+            <input type="number" id="ipva" placeholder="Ex: 1200" required>
+
+            <label for="financiamento">Parcela do Financiamento Mensal (R$):</label>
+            <input type="number" id="financiamento" placeholder="Ex: 800" required>
+
+            <label for="seguro">Seguro Anual (R$):</label>
+            <input type="number" id="seguro" placeholder="Ex: 1500" required>
+
+            <label for="gasolina">Gasto com Gasolina Mensal (R$):</label>
+            <input type="number" id="gasolina" placeholder="Ex: 400" required>
+
+            <label for="outros">Outros Custos Mensais (R$):</label>
+            <input type="number" id="outros" placeholder="Ex: 100">
+
+            <label for="intervalo">Intervalo de Cálculo:</label>
+            <select id="intervalo">
+                <option value="diario">Diário</option>
+                <option value="semanal">Semanal</option>
+                <option value="mensal">Mensal</option>
+            </select>
+
+            <button type="button" onclick="calcularCustos()">Calcular Custos</button>
+        </form>
+        <div id="resultado" class="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
