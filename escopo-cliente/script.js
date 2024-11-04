@@ -24,6 +24,8 @@ function calcularCustos() {
 
     // Exibindo o resultado
     document.getElementById('resultado').innerHTML = `
-        <p>Custo ${intervalo.charAt(0).toUpperCase() + intervalo.slice(1)}: R$ ${custoFinal.toFixed(2)}</p>
+        <h5>Custo ${intervalo.charAt(0).toUpperCase() + intervalo.slice(1)}: R$ ${custoFinal.toFixed(2)}<h5>
     `;
+
+    
 }
