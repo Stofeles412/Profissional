@@ -1,0 +1,58 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-fixo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #563d7c; /* Cor de fundo do menu */
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+  }
+  
+  .nav-link {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .redes-sociais a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.2em;
+  }
+  
+  .redes-sociais a:hover {
+    color: #ffd700; /* Cor de hover nos ícones */
+  }
+  
+  main {
+    margin-top: 80px; /* Compensa o menu fixo */
+  }
+  
+  .secao {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .secao:nth-child(odd) {
+    background-color: #f8f9fa;
+  }
+  
+  .formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
