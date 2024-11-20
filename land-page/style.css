@@ -68,7 +68,7 @@ transform: scale(1.1);
 button{
 cursor: pointer;
 box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.383);
-border-radius: 30px;
+border-radius: 10px;
 font-size: 1.1em;
 border: 0;
 margin: auto;
@@ -155,7 +155,6 @@ z-index: 2;
 }
 
 div, h2, p{
-text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.478);
 color: #E63946;
 }
 div,h2{
@@ -202,7 +201,7 @@ footer{
 width: 100%;
 margin-top: 30%;
 color: white;
-background-color: rgb(49, 49, 49);
+background-color: rgb(30, 30, 30);
 }
 @media screen and (max-width: 1000px) {
     nav {
