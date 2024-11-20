@@ -1,92 +1,92 @@
-*{  font-family: Arial, Helvetica, sans-serif;
-    padding: 0;
-    margin: 0;
+*{  
+font-family: Arial, Helvetica, sans-serif;
+padding: 0;
+margin: 0;
 }
 header{
-    width: 100%;
-    margin-bottom: 20%;
-    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.628);
-    padding: 50px;
-    background-color: rgb(35, 35, 36);
+width: 100%;
+margin-bottom: 20%;
+box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.628);
+background-color: rgb(62, 61, 61);
 }
 h3{
- text-align: center;
-color: chartreuse;
+text-align: center;
+color: rgb(175, 43, 43);
 font-size: 1.3em;
 font-family: cursive;
 }
- ul, li{
-    padding: 20px;
-    font-size: 1.3em;
-    color: rgb(7, 141, 18);
-    font-weight: bold;
-   display: inline-flex;
-    text-align: center;
-    width: 100%;
+ ul, li, a{
+padding: 20px;
+font-size: 1.3em;
+color: rgb(255, 0, 0);
+font-weight: bold;
+display: inline-flex;
+text-decoration: none;
+text-align: center;
+width: 100%;
 }
 body{
-background-color: rgb(128, 126, 124);
+background-color: rgb(255, 255, 255);
 width: 100vw;
 height: 100vh;
 overflow-x: hidden;
 }
 section{
-    background-color: rgb(128, 126, 124);
-    display: flex;
+background-color: rgb(255, 255, 255);
+display: flex;
 }
 section, p{
-    padding: 5%;
-    line-height: 50px;
-    font-size: 1.3em;
-    font-weight: bold;
+padding: 5%;
+line-height: 25px;
+font-size: 1.1em;
 }
 #seçao-1{
 flex-direction: row;
 }
 #seçao-2{
-   flex-direction: row-reverse;
+flex-direction: row-reverse;
 }
 #seçao-3{
-    flex-direction: row;
+flex-direction: row;
 }
  #seçao-4{
-    flex-direction: row-reverse;
+flex-direction: row-reverse;
 }
 .section-p{
-    color: black;
+color: black;
 }
 img{
-    border-radius: 20px;
-    width: 30%;
-    transition: transform 0.3s ease; 
+border-radius: 20px;
+ width: 30%;
+transition: transform 0.3s ease; 
 } 
 img:hover{
-    cursor: zoom-in;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.662);
-    transform: scale(1.1);
+cursor: zoom-in;
+box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.662);
+transform: scale(1.1);
 }
 button{
-    cursor: pointer;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.383);
-    border-radius: 30px;
-    font-size: 1.5em;
-    border: 0;
-    margin: auto;
-    width: 15%;
-    background-color: rgb(6, 65, 15);
-    display: block;
-    font-weight: bold;
-    padding: 10px;
-    transition: .2s;
-    color: white;
+cursor: pointer;
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.383);
+border-radius: 30px;
+font-size: 1.1em;
+border: 0;
+margin: auto;
+width: 15%;
+background-color: rgb(255, 0, 0);
+display: block;
+font-weight: bold;
+padding: 10px;
+transition: .2s;
+color: white;
 }
 .botao-1:hover{
-    margin-right: 50%;
-    width: 40%;
-    transition: .5s;
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    background-color: rgb(8, 158, 23);
+margin-right: 50%;
+width: 40%;
+transition: .5s;
+cursor: pointer;
+color: rgb(0, 0, 0);
+background-color: rgb(164, 31, 31);
 }
 .botao-2:hover{
 margin-left: 40%;
@@ -94,122 +94,115 @@ width: 40%;
 transition: .5s;
 cursor: pointer;
 color: rgb(252, 252, 252);
-background-color: rgb(8, 158, 23);
+background-color: rgb(164, 31, 31);
 }
 .botao-3:hover{
-    margin-right: 40%;
-    width: 40%;
-    transition: .5s;
-    cursor: pointer;
-    color: rgb(252, 252, 252);
-    background-color: rgb(8, 158, 23);
+margin-right: 40%;
+width: 40%;
+transition: .5s;
+cursor: pointer;
+color: rgb(252, 252, 252);
+background-color: rgb(164, 31, 31);
 }
 .botao-4:hover{
-    margin-left: 40% ;
-    width: 40%;
-    transition: .5s;
-    cursor: pointer;
-    color: rgb(252, 252, 252);
-    background-color: rgb(8, 158, 23);
+margin-left: 40% ;
+width: 40%;
+transition: .5s;
+cursor: pointer;
+color: rgb(252, 252, 252);
+background-color: rgb(164, 31, 31);
 }
 #containe{
-    margin-top: 25%;
-    background-color: rgb(128, 126, 124);
-    width: 100vw;
-    display: flex;
+margin-top: 25%;
+background-color: rgb(255, 255, 255);
+width: 100vw;
+display: flex;
 }
 .div-p{
+font-weight: bold;
 height: 500px;
 }
 div{
-    margin: 4%;
-    padding: 5px;
-    transition: .4s;
-    border-radius: 5px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgb(100, 96, 96);
-    width: 80%;
-    height: 700px;
-    border: solid 2px black;
-    background-position: center center ;
-    background-size: cover;
+margin: 4%;
+padding: 5px;
+transition: .4s;
+border-radius: 5px;
+background-size: cover;
+background-repeat: no-repeat;
+background-color: rgb(100, 96, 96);
+width: 80%;
+height: 500px;
+border: solid 2px black;
+background-position: center center ;
+background-size: cover;
     
 }
 div::before{
-    content: ''; 
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.655); 
-    z-index: 1; 
-    border-radius: 5px; 
-    pointer-events: none;
+content: ''; 
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.204); 
+z-index: 1; 
+border-radius: 5px; 
+pointer-events: none;
 }
 div::after{
-    position: relative;
-    z-index: 2;
+position: relative;
+z-index: 2;
 }
 
 div, h2, p{
-    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.478);
-    color: rgb(33, 207, 17);
+text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.478);
+color: #E63946;
 }
 div,h2{
-    padding: 3px;
-   background-color: rgb(3, 2, 2);
-   color: white;
+padding: 3px;
+background-color: rgb(3, 2, 2);
+color: rgb(255, 0, 0);
 }
 #card-1{
-    background-image: url(./page-img/ps5Pro.jpg);
+background-image: url(./page-img/ps5Pro.jpg);
 
 }
 #card-2{
-    background-image: url(./page-img/seriesS.avif);
+background-image: url(./page-img/seriesS.avif);
   
 }
 #card-3{
-    background-image: url(./page-img/nitendoSwich.webp);
+background-image: url(./page-img/nitendoSwich.webp);
 }
 #card-4{
-    background-image: url(./page-img/Steam-Deck-scaled.jpg);
+background-image: url(./page-img/Steam-Deck-scaled.jpg);
 }
 .botao-compra{
-    margin-top: 89px;
-    border-radius: 10px;
-    width: 80%;
-    background-color: rgba(12, 10, 10, 0.64);
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    transition: .5;
+margin-top: -110px;
+border-radius: 10px;
+width: 80%;
+background-color: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+font-weight: bold;
+transition: .5;
 }
 .botao-compra:hover{
-    width: 90%;
-    background-color: rgb(10, 120, 216);
-    color: black;
-    transform: scale(1.1);
-    transition: .5s;
+width: 90%;
+background-color: rgba(255, 0, 0, 0.755);
+color: black;
+transform: scale(1.1);
+transition: .5s;
 }
 div:hover{
-    cursor: pointer;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
-    transform: scale(1.1);
+cursor: pointer;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
+transform: scale(1.1);
 }
 footer{
-    width: 100%;
-    margin-top: 30%;
-    color: white;
-    background-color: rgb(50, 48, 48);
-}
-.icone-pe{
-    width: 20%;
-}
-.icone-pe:hover{
-    cursor: pointer;
-    width: 20%;
-    box-shadow: 3px 3px 10px rgba(11, 158, 166, 0.547);
+width: 100%;
+margin-top: 30%;
+color: white;
+background-color: rgb(49, 49, 49);
 }
 @media screen and (max-width: 1000px) {
     nav {
