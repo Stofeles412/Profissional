@@ -1,0 +1,41 @@
+header{
+    background-color: #160781;
+    padding: 5%;
+}
+  
+  
+ header, a{
+text-decoration: none !important
+ 
+}
+.menu-item{
+    list-style-type: none;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 2em;
+    display: inline;
+}
+#div-2{
+background-image: url(/imagens/header-revista.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+.carousel-item{
+background-image: url(/imagens/wallpapersden.com_silent-hill-2-remake-4k_2340x1080.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center bottom;
+}
+#div-3{
+background-image: url(/imagens/imagem-nova\ york.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center bottom;
+}
+#div-4{
+background-image: url(/imagens/imgem-tokyo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center bottom;
+}
