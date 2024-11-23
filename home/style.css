@@ -1,0 +1,46 @@
+*{  font-family: Arial, Helvetica, sans-serif;
+    padding:0 ;
+    margin: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+#topo-site{
+    background-color: black;
+}
+#menu-nav{
+    width: 100%;
+    display: none;
+    padding: 30px;
+    background-color: rgb(6, 172, 172);
+}
+#nav-img{
+width: 80px;
+border: solid 5px rgb(48, 154, 214);
+border-radius: 100%;
+}
+#containe{
+    margin-top: 50%;
+    width: 100%;
+    padding: 5%;
+    color: rgb(31, 136, 228);
+    background-color: rgb(36, 30, 30);
+}
+#conteudo-ul, a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+.itens{
+ display: inline;
+    list-style-type: none;
+    margin: 30px;
+}
+#botao-menu{
+    cursor: pointer;
+    margin-left: 90%;
+    width: 50px;
+    background-color: rgb(29, 150, 150);
+    padding: 20px;
+}
