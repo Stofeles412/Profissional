@@ -1,11 +1,11 @@
 function Openmenu(){
 const conteudo = document.getElementById("menu-nav")
 const icone = document.getElementById("icone-menu")
-if(conteudo.style.display == "none"){
-    conteudo.style.display = "inline-block"
+if(conteudo.classList.contains ("show")){
+    conteudo.classList.remove ("show")
     icone.src = "../imagens/divisa-direita.png"
 }else{
-    conteudo.style.display = "none"
+    conteudo.classList.add  ("show")
       icone.src = "../imagens/divisa-esquerda.png"
 }
 }

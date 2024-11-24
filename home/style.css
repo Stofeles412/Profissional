@@ -9,10 +9,23 @@ body{
     background-color: rgb(51, 49, 49);
 }
 #menu-nav{
-    width: 100%;
-    display: none;
+    width: 20%;
+    margin-right: 76%;
     padding: 30px;
     background-color: rgb(80, 89, 89);
+    border: solid 3px rgba(0, 0, 0, 0.606);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.59);
+    /*animação menu*/
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: left;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: block; /* Garante que ele está sempre no fluxo */
+    height: 500px; /* Ajusta ao conteúdo */
+}
+#menu-nav.show{
+    opacity: 1;
+    transform: scaleY(1);
 }
 #nav-img{
 margin-left: 30px;
@@ -40,7 +53,9 @@ border-radius: 100%;
     padding: 10%;
 }
 .itens{
- display: inline;
+    padding: 5px;
+    background-color: rgba(0, 217, 255, 0.093);
+    display: block;
     list-style-type: none;
     margin: 30px;
 }
@@ -48,7 +63,7 @@ border-radius: 100%;
     background-color: rgb(51, 49, 49);
     border: 0px;
     cursor: pointer;
-    margin-left: 85%;
+    margin-right: 85%;
     width: 50px;
     padding: 20px;
 }
