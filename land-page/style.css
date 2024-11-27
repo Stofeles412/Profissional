@@ -12,6 +12,15 @@ margin-bottom: 20%;
 box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.628);
 background-color: rgb(62, 61, 61);
 }
+#nav-bar{
+    opacity: 0;
+    transform: translate(1);
+}
+#nav-bar.show{
+    opacity: 1;
+    transform: translate(1);
+    transition: ease 0.5;
+}
 h3{
 text-align: center;
 color: rgb(255, 255, 255);
