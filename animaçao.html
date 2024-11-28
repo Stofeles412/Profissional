@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações Similar ao AOS</title>
+    <style>
+        main {
+            padding: 10%;
+            opacity: 0;
+            transform: translateX(-50px);
+            transform-origin: left;
+            transition: opacity 1s, transform 1s;
+        }
+
+        main.show {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        #containe-1 {
+            background-color: rgb(0, 217, 255);
+        }
+
+        #containe-2 {
+            background-color: rgb(41, 41, 61);
+            transform-origin: right;
+        }
+
+        #containe-3 {
+            background-color: rgb(125, 125, 216);
+            transform-origin: left;
+        }
+
+        #containe-4 {
+            background-color: rgb(8, 8, 240);
+            transform-origin: bottom;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Bem-vindo</h1>
+
+    <main id="containe-1" class="corpos">
+        <h1>Primeira</h1>
+        <p>Conteúdo da primeira seção.</p>
+        <img src="/imagens/dever-de-casa.png" alt="Imagem">
+    </main>
+
+    <main id="containe-2" class="corpos">
+        <h1>Segunda</h1>
+        <p>Conteúdo da segunda seção.</p>
+        <img src="/imagens/dever-de-casa.png" alt="Imagem">
+    </main>
+
+    <main id="containe-3" class="corpos">
+        <h1>Terceira</h1>
+        <p>Conteúdo da terceira seção.</p>
+        <img src="/imagens/dever-de-casa.png" alt="Imagem">
+    </main>
+
+    <main id="containe-4" class="corpos">
+        <h1>Quarta</h1>
+        <p>Conteúdo da quarta seção.</p>
+        <img src="/imagens/dever-de-casa.png" alt="Imagem">
+    </main>
+
+    <script>
+        function animas() {
+            const sections = document.querySelectorAll('main'); // Seleciona todos os elementos <main>
+
+            window.addEventListener('scroll', () => {
+                const triggerBottom = window.innerHeight * 0.8; // Define o limite inferior da ativação
+                
+                sections.forEach(section => {
+                    const sectionTop = section.getBoundingClientRect().top;
+
+                    if (sectionTop < triggerBottom) {
+                        section.classList.add('show'); // Adiciona a classe quando visível
+                    } else {
+                        section.classList.remove('show'); // Remove a classe quando fora da área
+                    }
+                });
+            });
+        }
+
+        animas();
+    </script>
+</body>
+</html>

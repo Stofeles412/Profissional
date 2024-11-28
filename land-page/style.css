@@ -21,6 +21,8 @@ background-color: rgb(62, 61, 61);
     opacity: 1;
     transform: translate(1);
     transition: 1s;
+    transform-origin: left;
+    transform: translate(-100%);
 }
 h3{
 text-align: center;
