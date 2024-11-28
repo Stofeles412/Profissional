@@ -20,17 +20,35 @@ font-size: 1.5em;
             height: 250px;
             width: 10%;
             text-align: left;
+           
         }
         #nav-bar.show{
             opacity: 1;
             transform: scaleY(1);
+        }
+        #corpo{
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            transition: 1s;
+        }
+        #corpo.mudar{
+            background-color: rgb(0, 0, 0);
+            opacity: 1;
+            transform: translate(1);
+            transition: 1s;
+            transform-origin: bottom;
+            color: rgb(255, 255, 255);
         }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<main id="corpo">
+
+
 <body>
+    <button onclick="mudarTema()">tema</button>
     <button onclick="openMenu()">abrir</button>
     <nav id="nav-bar">
        <ul>
@@ -40,6 +58,9 @@ font-size: 1.5em;
         <li><a href="#">testes</a></li>
        </ul>
     </nav>
+<h2>ola</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, voluptas? Veniam vel, accusamus doloribus adipisci rerum maxime illum assumenda, magnam alias sunt eius maiores. Culpa ducimus reprehenderit repellendus ipsum modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime placeat nostrum possimus architecto rem vitae repudiandae porro quos reiciendis cum molestiae in voluptatem obcaecati totam quisquam dolores veritatis, sapiente expedita.</p>
+    </main>
 </body>
 <script>
     function openMenu(){
@@ -52,5 +73,18 @@ font-size: 1.5em;
         }
       
     }
+
+    function mudarTema(){
+    const tema = document.getElementById("corpo")
+    if(tema.classList.contains("mudar")){
+    tema.classList.remove("mudar")
+    }else{
+        tema.classList.add("mudar")
+    }
+        
+    }
+
+        
+    
 </script>
 </html>
