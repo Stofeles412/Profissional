@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estilos</title>
+</head>
+<style>
+    #nav-bar{
+background-color: rgb(50, 53, 53);
+height: 500px;
+opacity: 0;
+transition: 1s;
+width: 400px;
+right: 250px;
+    }
+    #nav-bar.show{
+        opacity: 1;
+        transition: 1s;
+        transform-origin: left;
+        transform: translate(1);
+      
+    }
+</style>
+<button onclick="openMenu()">abrir</button>
+<nav id="nav-bar">
+    <ul>
+        <li><a href="#">olá</a></li>
+        <li><a href="#">olá</a></li>
+        <li><a href="#">olá</a></li>
+        <li><a href="#">olá</a></li>
+    </ul>
+</nav>
+<body>
+    <h1>desagner</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit recusandae maxime omnis illum, aut commodi necessitatibus eius illo maiores ex eligendi! Mollitia sequi veniam corrupti nesciunt vero aspernatur. Reiciendis, unde!</p>
+</body>
+<script>
+    function openMenu(){
+        const abrir = document.getElementById("nav-bar")
+        abrir.classList.toggle("show")
+    }
+</script>
+</html>
