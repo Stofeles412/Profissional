@@ -3,49 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>estilos</title>
+    <title>menu</title>
+    <style>
+        #nav-bar{
+            opacity: 0;
+            height: 300px;
+            background-color: rgb(61, 61, 61);
+            padding: 30px;
+            transform: translateY(-100%);
+            transition: .5s;
+        }
+        #nav-bar.show{
+            transform: scaleY(1);
+            transform-origin: top;
+            transition: 1s;
+            opacity: 1;
+          
+        }
+        ul,li,a{
+            list-style-type: none;
+        }
+        button{
+            margin-top: 50px;
+        }
+    </style>
 </head>
-<style>
-    #nav-bar{
-
- color: white;
-background-color: rgb(67, 67, 67);
-height: 700px;
-opacity: 0;
-transition: .8s;
-width: 400px;
-transform: translate(-100%);
-pointer-events: none;
-box-shadow: 3px 3px 7px black;
-
-    }
-    #nav-bar.show{
-        opacity: 1;
-        transform: translate(0px);
-        
-      
-    }
-    ul,li,a{
-        font-size: 1.3em;
-        font-weight: bold;
-        color: aliceblue;
-        text-decoration: none;
-        list-style-type: none;
-    }
-</style>
-<button onclick="openMenu()">abrir</button>
-<nav id="nav-bar">
-    <ul>
-        <li><a href="#">olá</a></li>
-        <li><a href="#">olá</a></li>
-        <li><a href="#">olá</a></li>
-        <li><a href="#">olá</a></li>
-    </ul>
-</nav>
 <body>
-    <h1>desagner</h1>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit recusandae maxime omnis illum, aut commodi necessitatibus eius illo maiores ex eligendi! Mollitia sequi veniam corrupti nesciunt vero aspernatur. Reiciendis, unde!</p>
+    <nav id="nav-bar">
+        <ul>
+            <li><a href="#">ola</a></li>
+            <li><a href="#">ola</a></li>
+            <li><a href="#">ola</a></li>
+            <li><a href="#">ola</a></li>
+        </ul>
+    </nav>
+    <button onclick="openMenu()">abrir</button>
 </body>
 <script>
     function openMenu(){
