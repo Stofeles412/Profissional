@@ -7,19 +7,30 @@
 </head>
 <style>
     #nav-bar{
-background-color: rgb(50, 53, 53);
-height: 500px;
+
+ color: white;
+background-color: rgb(67, 67, 67);
+height: 700px;
 opacity: 0;
-transition: 1s;
+transition: .8s;
 width: 400px;
-right: 250px;
+transform: translate(-100%);
+pointer-events: none;
+box-shadow: 3px 3px 7px black;
+
     }
     #nav-bar.show{
         opacity: 1;
-        transition: 1s;
-        transform-origin: left;
-        transform: translate(1);
+        transform: translate(0px);
+        
       
+    }
+    ul,li,a{
+        font-size: 1.3em;
+        font-weight: bold;
+        color: aliceblue;
+        text-decoration: none;
+        list-style-type: none;
     }
 </style>
 <button onclick="openMenu()">abrir</button>
