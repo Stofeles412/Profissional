@@ -9,7 +9,7 @@
             opacity: 0;
             height: 300px;
             background-color: rgb(61, 61, 61);
-            padding: 30px;
+            padding: 10px;
             transform: translateY(-100%);
             transition: .5s;
         }
@@ -37,12 +37,20 @@
             <li><a href="#">ola</a></li>
         </ul>
     </nav>
-    <button onclick="openMenu()">abrir</button>
+    <button onclick="openMenu()" id="botao">abrir</button>
 </body>
 <script>
     function openMenu(){
         const abrir = document.getElementById("nav-bar")
+        const botao = document.getElementById("botao")
         abrir.classList.toggle("show")
+        if(botao.innerText == "abrir"){
+             botao.innerText = "fechar"
+        }else{
+ botao.innerText = "abrir"
+        }
+       
     }
+       
 </script>
 </html>
