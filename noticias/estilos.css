@@ -1,0 +1,59 @@
+*{ font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+color: aliceblue;
+background-color: rgb(55, 53, 53);
+margin: 30px;
+}
+header{
+    background-color: rgb(198, 115, 6);
+}
+.ul-itens, a{
+    color: aliceblue;
+    font-size: 1.2em;
+   display: inline;
+   margin: 50px;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+#containe{
+    margin-top: 20%;
+    display: flex;
+}
+div{
+    height: 400px;
+    margin: auto;
+    padding: 50px;
+    width: 50%;
+}
+#card-1{
+    background-color: rgb(47, 58, 54);
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+    
+}
+#card-2{
+    background-color: rgb(21, 154, 110);
+    background-image: url(../imagens/imagem-miami.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+#card-3{
+    background-color: rgb(1, 8, 6);
+    background-image: url(../imagens/imgem-tokyo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#card-4{
+    background-color: rgb(124, 136, 132);
+    background-image: url(../imagens/imagem\ -\ toronto.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

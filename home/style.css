@@ -1,57 +1,29 @@
-*{  font-family: Arial, Helvetica, sans-serif;
-    padding:0 ;
-    margin: 0;
-}
-body{
-    background-color: rgb(255, 255, 255);
-}
-#topo-site{
-    background-color: rgb(51, 49, 49);
-}
-#menu-nav{
-    width: 100%;
-    display: none;
-    padding: 30px;
-    background-color: rgb(80, 89, 89);
-}
-#nav-img{
-margin-left: 30px;
-width: 80px;
-border: solid 5px rgb(48, 154, 214);
-border-radius: 100%;
+*{
+font-family: Arial, Helvetica, sans-serif;
+padding: 0;
+margin: 0;
 }
 #containe{
-    background-color: black;
-    margin-top: 20%;
-    line-height: 35px;
-    width: 100%;
-    padding: 5%;
-    color: rgb(31, 136, 228);
+    display: flex;
+   background-color: antiquewhite;
 }
-#conteudo-ul, a{
-    color: black;
-    text-decoration: none;
-    text-align: center;
-    margin: auto;
+div{
+    margin-top: 10%;
+    height: 100px;
+    width: 50%;
 }
-#capa-fundo{
-    background-image: url(../imagens/imgem-tokyo.jpg);
-    background-size: cover;
-    padding: 10%;
+#card-1{
+    background-color: blue;
+    
 }
-.itens{
- display: inline;
-    list-style-type: none;
-    margin: 30px;
+#card-2{
+    background-color: rgb(28, 28, 39);
+ 
 }
-#botao-menu{
-    background-color: rgb(51, 49, 49);
-    border: 0px;
-    cursor: pointer;
-    margin-left: 85%;
-    width: 50px;
-    padding: 20px;
+#card-3{
+    background-color: rgb(20, 20, 53);
+   
 }
-#icone-menu{
-    width: 50px;
+#card-4{
+    background-color: rgb(81, 81, 124);
 }
