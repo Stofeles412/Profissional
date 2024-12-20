@@ -4,8 +4,11 @@ padding: 0;
 margin: 0;
 }
 #containe{
-    display: flex;
    background-color: rgb(97, 93, 87);
+}
+h1{
+    font-size: 4em;
+    text-align: center;
 }
 div{
     background-color: black;
@@ -17,7 +20,14 @@ div{
     height: 150px;
     width: 90%;
 }
-
+#icone-perfil{
+    margin-top: 10%;
+    margin-left: 50%;
+    display: inline;
+    border-radius: 100%;
+    width: 150px;
+    border: solid 10px rgb(19, 110, 19);
+}
 .icones{
     width: 80px;
 }
