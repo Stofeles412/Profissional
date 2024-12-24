@@ -6,6 +6,7 @@
     #containe{
       background-image: linear-gradient(black, rgb(99, 96, 96));
       text-align: center;
+      padding: 50px;
      
      
     }
@@ -33,7 +34,7 @@
         display: inline;
         border-radius: 100%;
         width: 150px;
-        border: solid 10px rgb(61, 66, 61);
+        border: solid 5px rgb(61, 66, 61);
         cursor: pointer;
        margin: auto;
     }
@@ -49,6 +50,7 @@
         margin-top: 5%;
         width: 80%;
         transition: .3s;
+        
         
     
     }
