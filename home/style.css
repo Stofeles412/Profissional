@@ -4,21 +4,27 @@ padding: 0;
 margin: 0;
 }
 #containe{
-   background-color: rgb(97, 93, 87);
+  background-image: linear-gradient(black, rgb(69, 67, 67));
 }
 h1{
-    font-size: 4em;
+    font-size: 3em;
+    font-family: cursive;
     text-align: center;
+    color: aliceblue;
 }
 div{
-    background-color: black;
+    background-color: rgb(10, 10, 10);
     font-size: 1.2em;
     color: white;
     padding: 50px;
-    border-radius: 100px;
+    border-radius: 15px;
     margin-top: 10%;
     height: 150px;
     width: 90%;
+}
+div:hover{
+    cursor: pointer;
+ 
 }
 #icone-perfil{
     margin-top: 10%;
