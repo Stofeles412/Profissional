@@ -1,54 +1,67 @@
 *{
-font-family: Arial, Helvetica, sans-serif;
-padding: 0;
-margin: 0;
-}
-#containe{
-  background-image: linear-gradient(black, rgb(69, 67, 67));
-}
-h1{
-    font-size: 3em;
-    font-family: cursive;
-    text-align: center;
-    color: aliceblue;
-}
-div{
-    background-color: rgb(10, 10, 10);
-    font-size: 1.2em;
-    color: white;
-    padding: 50px;
-    border-radius: 15px;
-    margin-top: 10%;
-    height: 150px;
-    width: 90%;
-}
-div:hover{
-    cursor: pointer;
- 
-}
-#icone-perfil{
-    margin-top: 10%;
-    margin-left: 50%;
-    display: inline;
-    border-radius: 100%;
-    width: 150px;
-    border: solid 10px rgb(19, 110, 19);
-}
-.icones{
-    width: 80px;
-}
-#card-1{
-    background-color: rgb(44, 44, 44);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    }
+    #containe{
+      background-image: linear-gradient(black, rgb(99, 96, 96));
+      text-align: center;
+     
+     
+    }
+    h1{
+        font-size: 3em;
+        font-family: cursive;
+        color: aliceblue;
+    }
+    div{
+        background-color: rgb(13, 13, 13);
+        font-size: 1.2em;
+        color: rgb(197, 187, 187);
+        padding: 50px;
+        border-radius: 15px;
+        margin-top: 10%;
+        height: 150px;
+        width: 90%;
+    }
+    div:hover{
+        cursor: pointer;
+     
+    }
+    #icone-perfil{
+        margin-top: 10%;
+        display: inline;
+        border-radius: 100%;
+        width: 150px;
+        border: solid 10px rgb(61, 66, 61);
+        cursor: pointer;
+       margin: auto;
+    }
+    .icones{
+       
+        border-radius: 50px;
+        width: 70px;
+        
+    }
     
-}
-#card-2{
-  background-color: rgb(46, 46, 46);
- 
-}
-#card-3{
-    background-color: rgb(50, 50, 51);
-   
-}
-#card-4{
-    background-color: rgb(47, 47, 48);
-}
+    .cards{
+        margin: auto;
+        margin-top: 5%;
+        width: 80%;
+        transition: .3s;
+        
+    
+    }
+    .cards:hover{
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.573);
+        transition: .3s;
+        width: 85% ;
+        color: rgb(255, 255, 255);
+    }
+    .cards,a{
+       text-decoration: none;
+    }
+    h2{
+    text-align: left;
+  
+    }
