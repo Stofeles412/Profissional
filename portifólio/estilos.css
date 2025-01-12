@@ -30,8 +30,13 @@ body{
 main{
     padding: 10%;
     display: flex;
-    background-color: rgb(48, 48, 49);
+    background-color: rgb(73, 73, 74);
+}
+.main-h2{
+    color: orange;
+    font-size: 3em;
+    margin: auto;
 }
 .icones{
-    width: 50px;
+    width: 100px;
 }
