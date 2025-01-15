@@ -10,6 +10,17 @@
     height: 800px;
 
 }
+.ul-li, a{
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+    margin: 5%;
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+}
+
 .text-h1{
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.865);
     font-size: 5em;
@@ -82,4 +93,19 @@ div{
   width: 450px;
   margin-bottom: 10%;
   border-radius: 20px;
+}
+
+
+@media screen and (min-width: 600px){
+    #menu {
+        opacity: 1; 
+        transform: translate(0); 
+        transition: opacity 0.5s ease, transform 0.5s ease; 
+    }
+    
+    #menu.Show {
+        opacity: 0; /* Menu oculto */
+        transform: translateY(-100%); 
+    }
+    
 }
