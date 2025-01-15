@@ -10,6 +10,10 @@
     height: 800px;
 
 }
+#menu{
+    padding: 20px;
+    background-color: rgb(17, 17, 17);
+}
 .ul-li, a{
     font-weight: bold;
     font-size: 1.3em;
@@ -73,16 +77,23 @@ div{
     font-size: 1.5em;
 }
 #card-2{
-    background-color: rgb(59, 53, 53);
+    background-color: rgb(255, 255, 255);
+    
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    font-size: 1.5em;
 }
 #card-3{
     background-color: rgb(98, 95, 95);
 }
 .botao{
-    width: 150px;
-    margin-top: 50%;
-    padding: 10px;
+    width: 100px;
+    padding: 5px;
     background-color: rgb(215, 153, 8);
+    display: none;
+   
 }
 #seçao-1{
     padding: 100px;
@@ -101,14 +112,24 @@ div{
     font-size: .7em;
    }
    #menu.Show{
-opacity: 0;
+height: 100px;
+background-color: rgb(42, 39, 39);
+opacity: 1;
 transition: .5s;
-transform: translate(-50%);
+transform: translate(-100%);
+   }
+ .ul-li,a{
+margin: 5px;
    }
    .Show{
     opacity: 1;
     transition: .5s;
     transform: translate(100%);
+   
    }
-    
+  .botao{
+    display: block;
+   
+  }  
+ 
 }
