@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     padding: 0;
     margin: 0;
@@ -107,11 +110,11 @@ div{
 }
 
 
-@media screen and (min-width: 600px){
-   #capa-header{
-    font-size: .7em;
+@media screen and (max-width: 830px){
+#capa-header{
+font-size: .7em;
    }
-   #menu.Show{
+#menu.Show{
 height: 100px;
 background-color: rgb(42, 39, 39);
 opacity: 1;
@@ -119,17 +122,18 @@ transition: .5s;
 transform: translate(-100%);
    }
  .ul-li,a{
-margin: 5px;
+margin: 15px;
    }
    .Show{
     opacity: 1;
     transition: .5s;
-    transform: translate(100%);
+    transform: translate(70%);
    
    }
   .botao{
     display: block;
    
-  }  
+  }
+ 
  
 }
