@@ -15,6 +15,8 @@ html{
 }
 #menu{
     padding: 20px;
+    border-radius: 500px;
+   
     
 }
 .ul-li, a{
