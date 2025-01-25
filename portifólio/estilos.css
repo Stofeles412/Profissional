@@ -9,7 +9,7 @@ html{
 #capa-header{
     font-family: 'roboto', sans-serif;
     font-weight: 400;
-    background-image: url(../imagens/pexels-lee-campbell-18167-115655.png);
+    background-image: url(../imagens/header-hero-punk.jpg);
     background-size: cover;
     height: 800px;
 
@@ -51,7 +51,7 @@ html{
 
 body{
     color: white;
-    background-color: rgb(36, 35, 35);
+    background-color: rgb(14, 13, 13);
 }
 #containe{
     display: grid;
@@ -61,7 +61,7 @@ body{
     grid-column-gap: 150px;
     grid-row-gap: 500px ;
     padding: 10%;
-    background-color: rgb(36, 35, 35);
+    background-color: rgb(14, 13, 13);
 }
 .main-h2{
     text-decoration: underline;
@@ -73,8 +73,8 @@ body{
     width: 100px;
 }
 div{
-    border-top: solid 20px rgb(0, 255, 0);
-    border-left: solid 20px rgb(255, 0, 127);
+    border-top: solid 5px rgb(0, 255, 0);
+    border-left: solid 10px rgb(255, 0, 127);
     border-radius: 10px;
     padding: 100px;
     margin: 50px;
