@@ -62,6 +62,7 @@ body{
     grid-row-gap: 200px ;
     padding: 19%;
     background-color: rgb(14, 13, 13);
+    
 }
 .main-h2{
     margin-top: 15%;
@@ -130,7 +131,16 @@ div{
     color: rgb(25, 212, 8);
     background-color: rgb(46, 0, 61);
     border: solid 3px rgb(25, 212, 61);
-    justify-items: right;
+  
+}
+span{
+    color: rgb(58, 212, 23);
+    border: 0;
+    padding: 0;
+    gap: 10px;
+    display: flex;
+    padding: 1px;
+   
 }
 .imagens{
   width: 100px;
@@ -139,14 +149,31 @@ div{
 }
 .seçao-img{
     border: solid 3px rgb(208, 10, 208);
-    width: 350px;
-    align-items: left;
+    width: 500px;
+   
+   
 }
 .div-img{
+    width: 80%;
     border: 0px;
-   border-top: solid 5px rgb(158, 6, 188);
-    background-color: rgb(0, 0, 0);
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    
 }
+.div-img-2 {
+    width: 80%;
+    border: 0px;
+    gap: 50px;
+   border-top: solid 1px rgb(21, 188, 6);
+   background-color: rgb(46, 0, 61);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
 
 @media screen and (max-width: 830px){
 #capa-header{
