@@ -4,11 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #video-hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #video-hero video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1; /* Mantém o vídeo no fundo */
+        }
+
+        #video-hero .div-text {
+           
+            font-size: 2em;
+            position: absolute;
+            top: 25%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            color: rgb(255, 0, 204);
+            text-align: center;
+            z-index: 1; /* Garante que o texto fique acima do vídeo */
+        }
+
+        #video-hero h1,
+        #video-hero h2,
+        #video-hero p {
+            margin: 0;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
     <header id="video-hero">
-        <h1>cyber punk</h1>
-<video src=""></video>
+        <video src="/imagens/CP2077_UE_KV_Animation_1920x1080_AV1.mp4" autoplay loop muted>
+            Seu navegador não suporta esse vídeo.
+        </video>
+
+        <div class="div-text">
+            <h1>Cyberpunk</h1>
+            <h2>Cyberpunk</h2>
+            <p>Um mundo novo e futurista</p>
+        </div>
     </header>
 </body>
 </html>

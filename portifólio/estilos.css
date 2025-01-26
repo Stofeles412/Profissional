@@ -17,6 +17,14 @@ html{
     height: 850px;
 
 }
+.header-div{
+    line-height: 100px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    background-color: rgba(136, 12, 177, 0.291);
+}
 #menu{
     padding: 20px;
     border-radius: 500px;
@@ -39,10 +47,10 @@ html{
 
 .text-h1{
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.865);
-    font-size: 5em;
+    font-size: 4em;
     color: rgb(255, 0, 127);
     padding: 3%;
-    width: 40%;
+    width: 50%;
 }
 .text-h2{
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.813);
