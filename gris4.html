@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        article{
+            display: grid;
+            grid-template-columns: repeat(auto-fit ( 1fr));
+            gap: 30px;
+            grid-column-gap: 200px ;
+            min-height:300px ;
+            margin: auto;
+         
+           
+            
+        }
+        article > header:nth-child(1){
+            background-color: blue;
+            min-height:300px ;
+            grid-column: 1/-1;
+            width: 100%;
+           
+        }
+        main {
+            background-color: rgb(149, 21, 171);
+            min-height: 500px ;
+            width: 50%;
+           
+        
+           
+        }
+       
+        
+        div{
+            background-color: rgb(213, 209, 5);
+            width: 20%;
+            height: 500px;
+            
+        
+            
+        }
+       section{
+            background-color: rgb(32, 90, 46);
+            min-height:200px ;
+            width: 20%;
+          
+        }
+        main > section:nth-child(1){
+            background-color: aquamarine;
+        }
+        footer{
+            background-color: chocolate;
+            min-height:300px ;
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+  <article>
+    <header>
+        <h1>header</h1>
+    </header>
+
+    <main>
+        <h1>main</h1>
+    </main>
+
+    <div>
+        <h1>sidebar</h1>
+    </div>
+
+    <section>
+       <h1>aside</h1> 
+    </section>
+    <section>
+        <h1>aside
+        </h1>
+    </section>
+
+    <footer>
+        <h1>footer</h1>
+    </footer>
+  </article>
+</body>
+</html>

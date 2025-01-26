@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #containe{
+            display: grid;
+            grid-template-columns: repeat(auto-fit , minmax(300px, 1fr)) ;
+           grid-column-gap: 20px;
+           height: 800px;
+            background-color: rgb(157, 136, 109);
+            grid-column-gap: 150px;
+            grid-row-gap: 200px;
+
+            grid-template-areas:  " header header header header " 
+            "article main main main"
+            "footer footer footer footer"
+            ;
+
+            
+        }
+        header{
+            height: 400px;
+            background-color: rgb(70, 68, 68);
+            grid-area: header;
+        }
+        main{
+            background-color: rgb(127, 90, 35);
+            grid-area: main;
+        }
+        article{
+            background-color: blueviolet;
+            grid-area: article;
+        }
+        footer{
+            background-color: brown;
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <main id="containe">
+<header>
+   <h1> header</h1>
+</header>
+<main>
+    <h1> main</h1>
+</main>
+<article>
+    <h1> article</h1>
+</article>
+
+<footer>
+    <h1> footer</h1>
+</footer>
+
+    </main>
+</body>
+</html>

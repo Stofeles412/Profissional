@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main {
+            background-color: black;
+       display: grid;
+       justify-items: center;
+            grid-template-columns: repeat(auto-fit, minmax(600px,  1fr));
+            grid-row-gap: 1%;
+            
+           
+        }
+        .containe > div:nth-child(1){
+            padding: 100px;
+            grid-column: 1/-1;
+            width: 100%;
+            background-color: rgb(43, 215, 8);
+            color: rgb(0, 244, 12);
+            background-image: url(/imagens/header-hero-punk.jpg);
+            background-size: cover;
+            background-position: center center;
+        }
+        .containe > div:nth-child(2){
+            background-color: rgb(204, 8, 149);
+            width: 80%;
+            background-image: url(/imagens/imgem-tokyo.jpg);
+            background-size: cover;
+            background-position: center center;
+            color: rgb(215, 6, 198);
+        
+        }
+        .containe > div:nth-child(3){
+          
+background-color: rgb(62, 3, 82);
+color: aliceblue;
+width: 80%;
+background-image: url(/imagens/futuristic-woman-in-virtual-reality-glasses-on-the-background-of-a-neon-city-cyberpunk-retrowave-synthwave-high-definition-art-generative-artificial-intelligence-photo.jpg);
+background-size: cover;
+background-position: center center;
+        }
+.containe > div:nth-child(4){
+    width: 60%;
+    height: 300px;
+  
+        }
+        div{
+            
+            padding: 20px;
+            font-size: 3em;
+          font-weight: bold;
+            background-color: rgb(5, 76, 150);
+            height: 300px;
+            width: 50%;
+        }
+
+        @media (min-width: 780px){
+#containe{
+    grid-column: 2/5;
+}
+        }
+    </style>
+</head>
+<body>
+    <main class="containe">
+        <div class="cards">
+            <h2>web desgner</h2>
+            UI/UX sejam bem vindos
+        </div>
+        <div class="cards">
+            <h2>tudo que vc precisa</h2>
+        </div>
+        <div class="cards">
+            <h2>Otimas soluções</h2>
+        </div>
+        <div class="cards">
+            4
+        </div>
+        <div class="cards">
+            5
+        </div>
+        <div class="cards">
+            6
+        </div>
+    </main>
+</body>
+</html>
