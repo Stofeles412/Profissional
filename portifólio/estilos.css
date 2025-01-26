@@ -12,7 +12,7 @@ html{
    
     font-family: 'orbitron', sans-serif;
     font-weight: 400;
-    background-image: url(../imagens/header-revista.jpg);
+    background-image: url(../imagens/digital-art-7753965_1920.jpg);
     background-size: cover;
     height: 850px;
 
@@ -23,7 +23,9 @@ html{
     padding: 0;
     border: 0;
     background-color: transparent;
-    background-color: rgba(136, 12, 177, 0.291);
+   border-left: solid 5px rgb(255, 0, 230);
+   border-bottom: solid 5px rgb(255, 0, 230);
+   
 }
 #menu{
     padding: 20px;
@@ -146,6 +148,12 @@ div{
     border: solid 3px rgb(203, 25, 212);
   
 }
+ .seçao-h2{
+    font-size: 3em;
+    text-align: center;
+}
+
+
 strong{
     color: rgb(58, 212, 23);
     border: 0;
