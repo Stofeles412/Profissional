@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 html{
     scroll-behavior: smooth;
 }
@@ -7,11 +9,12 @@ html{
     margin: 0;
 }
 #capa-header{
-    font-family: 'roboto', sans-serif;
+   
+    font-family: 'orbitron', sans-serif;
     font-weight: 400;
     background-image: url(../imagens/header-hero-punk.jpg);
     background-size: cover;
-    height: 800px;
+    height: 850px;
 
 }
 #menu{
@@ -70,6 +73,7 @@ body{
     color:rgb(0, 255, 0);
     font-size: 2.5em;
    text-align: center;
+   font-family: 'orbitron';
 }
 .icones{
     width: 100px;
@@ -88,6 +92,7 @@ div{
     color: rgb(255, 255, 255);
     background-color: rgb(46, 0, 61);
     line-height: 40px;
+    font-family: 'roboto' sans-serif;
     
 }
 #card-1{
@@ -130,16 +135,20 @@ div{
     padding: 50px;
     color: rgb(25, 212, 8);
     background-color: rgb(46, 0, 61);
-    border: solid 3px rgb(25, 212, 61);
+    border: solid 3px rgb(203, 25, 212);
   
 }
-span{
+strong{
     color: rgb(58, 212, 23);
     border: 0;
     padding: 0;
     gap: 10px;
     display: flex;
     padding: 1px;
+    font-weight: 300;
+    font-family: 'orbitron' sans-serif;
+    
+    
    
 }
 .imagens{
