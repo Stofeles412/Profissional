@@ -5,5 +5,6 @@ function openMenu(){
         abrir.classList.remove("Show")
     }else{
         abrir.classList.add("Show")
+        
     }
 }

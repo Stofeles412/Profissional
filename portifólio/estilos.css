@@ -159,7 +159,7 @@ div{
     grid-template-columns: repeat(200px, 1fr);
     padding: 50px;
     color: rgb(25, 212, 8);
-    background-color: rgb(46, 0, 61);
+    background-color: rgb(22, 3, 29);
     border: solid 3px rgb(203, 25, 212);
   
 }
@@ -194,12 +194,15 @@ strong{
    
 }
 .div-img{
+    background-color: rgb(22, 3, 29);
     width: 80%;
     border: 0px;
     gap: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-right: solid 2px rgb(51, 229, 1);
+    border-top: solid 2px rgb(51, 229, 1);
    
     
 }
@@ -207,11 +210,13 @@ strong{
     width: 80%;
     border: 0px;
     gap: 50px;
-   border-top: solid 1px rgb(21, 188, 6);
-   background-color: rgb(46, 0, 61);
+   background-color: rgb(22, 3, 29);
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    border-left: solid 2px rgb(51, 229, 1);
+    border-top: solid 2px rgb(51, 229, 1);
+    
 }
 footer{
     margin-top: 30%;
@@ -223,14 +228,11 @@ footer > p{
 }
 .footer-img{
     display: flex;
-    border-radius: 100px;
-    padding: 20px;
-    background-color: rgb(63, 225, 9);
-    width: 50px;
+    padding: 10px;
+    
   
 }
 .div-pe-icone{
-   
    margin: auto;
     background-color: transparent;
     border: 0;
@@ -240,13 +242,16 @@ footer > p{
 @media screen and (max-width: 830px){
 #capa-header{
 font-size: .7em;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
    }
 #menu.Show{
+text-align: left;
 height: 100px;
-background-color: rgb(42, 39, 39);
 opacity: 1;
 transition: .5s;
-transform: translate(-100%);
+transform: translate(-120%);
    }
  .ul-li,a{
 margin: 15px;
@@ -255,10 +260,14 @@ margin: 15px;
     opacity: 1;
     transition: .5s;
     transform: translate(70%);
+    
    
    }
   .botao{
+    background-color: transparent;
     display: block;
+    border: 0px;
+    cursor: pointer;
    
   }
  
