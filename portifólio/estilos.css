@@ -79,12 +79,13 @@ body{
 }
 #containe{
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(30%,  1fr));
+    grid-template-columns: repeat( auto-fit, minmax(40%,  1fr));
     grid-gap: 150px;
     grid-column-gap: 150px;
     grid-row-gap: 200px ;
     padding: 19%;
     background-color: rgb(0, 0, 0);
+  
     
 }
 .main-h2{
@@ -104,7 +105,6 @@ body{
 div{
     border-top: solid 5px rgb(0, 255, 0);
     border-left: solid 10px rgb(255, 0, 127);
-    border-radius: 10px;
     padding: 100px;
     margin: 50px;
     width: 30%;
@@ -121,6 +121,11 @@ div{
     background-repeat: no-repeat;
     font-size: 1.3em;
     
+}
+#card-1:hover{
+    transition: .2s;
+ 
+    box-shadow: 3px 3px 3px rgb(192, 7, 198);
 }
 #card-2{
     background-position: center center;
