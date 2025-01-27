@@ -254,13 +254,14 @@ footer > p{
    line-height: 7vh;
 }
 #menu{
-   
+  opacity: 0;
 }
 .ul-li, a{
     font-size: 1.3em;
     margin: 10%;
     margin: 3%;
     left: 10%;
+   
 }
 
 .text-h1{
