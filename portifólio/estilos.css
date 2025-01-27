@@ -239,52 +239,149 @@ footer > p{
 }
 
 @media screen and (max-width: 830px){
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
 #capa-header{
-font-size: .7em;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-width: 100%;
-   }
-#menu.Show{
-text-align: left;
-height: 100px;
-opacity: 1;
-transition: .5s;
-transform: translate(-120%);
-   }
- .ul-li,a{
-margin: 15px;
-   }
-   .Show{
-    opacity: 1;
-    transition: .5s;
-    transform: translate(70%);
+    font-size: .5em;
+    line-height: 1px;
+    background-position: center center;
+
+}
+.header-div{
+    line-height: 7vh;
+  
+   
+   
+}
+.div-h2{
+   line-height: 7vh;
+}
+#menu{
+   
+}
+.ul-li, a{
+    font-size: 1.3em;
+    margin: 10%;
+    margin: 3%;
+    left: 10%;
+}
+
+.text-h1{
+    font-size: 3.5em;
+    margin-top: 20%;
+   
+}
+.text-h2{
+    font-size: 2.5em;
+
+}
+
+#containe{
+    grid-template-columns: repeat(1fr);
+    justify-items: center;
+    padding: 0px;
+}
+.main-h2{
+    font-size: 2.4em;
+}
+.icones{
+    width: 100px;
+}
+.img-header{
+    width: 30%;
+}
+div{
+    line-height: 45px;
+}
+#card-1{
+    font-size: 1.5em;
     
-   
-   }
-  .botao{
-    background-color: transparent;
+}
+#card-1:hover{
+    box-shadow: 3px 3px 3px rgba(192, 7, 198, 0);
+}
+#card-2{
+    font-size: 1.5em;
+}
+#card-3{
+    padding-bottom: 100px;
+}
+#card-4{
+    font-size: 1.5em;  
+    max-height: 600px;
+}
+.botao{
+    width: 0px;
+    padding: 0;
+    background-color: rgba(215, 153, 8, 0.53);
     display: block;
-    border: 0px;
-    cursor: pointer;
+    border: 0;
    
-  }
- 
-  #containe{
+}
+#seçao-1{
+    width: 100%;
+    margin-top: 50%;
     display: grid;
-    grid-template-rows: 10%, 1fr;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-gap: 50px;
-    grid-column-gap: 150px;
-    grid-row-gap: 300px ;
-    padding: 10%;
-   
+    grid-template-columns: repeat(1fr);
+    font-size: 1em;
+  
+ 
 }
-
+ .seçao-h2{
    
+    font-size: 2.5em;
+    width: 65%;
+}
+  
 
-
+.imagens{
+ width: 70%;
+  border-radius: 20px;
+}
+.seçao-img{
+    align-items: ;
+    left: 50%;
+   width: 0%;
 
 }
+.div-img{
+    width: 80%;
+    border: 0px;
 
+    
+}
+.div-img-2 {
+    width: 30%;
+    border: 0px;
+   
+    
+}
+footer{
+    margin-top: 30%;
+    background-color: rgb(34, 8, 27);
+}
+footer > p{
+    font-size: 1.3em;
+
+}
+.footer-img{
+    display: flex;
+    padding: 10px;
+    
+  
+}
+.div-pe-icone{
+   margin: auto;
+    background-color: transparent;
+    border: 0;
+    padding: 1px;
+}
+}
