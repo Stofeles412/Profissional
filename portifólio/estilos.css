@@ -243,7 +243,10 @@ footer > p{
     width: 100%;
     font-size: .5em;
     line-height: 1px;
+    padding: 3em;
     background-position: center center;
+   background-size: auto;
+    background-repeat: no-repeat;
 
 }
 .header-div{
