@@ -242,6 +242,7 @@ footer > p{
 
 @media screen and (max-width: 830px){
 #capa-header{
+width: 220%;
 font-size: .7em;
 background-repeat: no-repeat;
 background-size: cover;
