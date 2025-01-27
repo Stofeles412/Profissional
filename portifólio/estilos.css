@@ -17,7 +17,7 @@ html{
 
 }
 .header-div{
-    line-height: 100px;
+    line-height: 10vh;
     margin: 0;
     padding: 0;
     border: 0;
@@ -30,7 +30,7 @@ html{
 }
 .div-h2{
     background-color: transparent;
-    line-height: 65px;
+   line-height: 9vh;
     margin: 0;
     padding: 0;
     border: 0;
@@ -38,8 +38,7 @@ html{
  
 }
 #menu{
-    padding: 20px;
-    border-radius: 500px;
+    
 }
 .ul-li, a{
     position: relative;
@@ -50,9 +49,8 @@ html{
     margin: 10%;
     color: rgb(255, 255, 0);
    margin: 3%;
-    display: inline-flex;
+   display: inline-flex;
     left: 25%;
-    bottom: 20px;
     list-style: none;
     text-decoration: none;
 }
@@ -125,7 +123,6 @@ div{
 }
 #card-1:hover{
     transition: .2s;
- 
     box-shadow: 3px 3px 3px rgb(192, 7, 198);
 }
 #card-2{
@@ -157,8 +154,8 @@ div{
 }
 #seçao-1{
     display: grid;
-    grid-template-columns: repeat(200px, 1fr);
-    padding: 50px;
+    grid-template-columns: repeat(200%, 1fr);
+    padding: 30px;
     color: rgb(25, 212, 8);
     background-color: rgb(22, 3, 29);
     border: solid 3px rgb(203, 25, 212);
@@ -184,19 +181,20 @@ strong{
    
 }
 .imagens{
-  width: 100px;
+ width: 70%;
   margin-bottom: 10%;
   border-radius: 20px;
 }
 .seçao-img{
     border: solid 3px rgb(208, 10, 208);
-    width: 500px;
-   
-   
+   width: 30%;
+  
+  
+
 }
 .div-img{
     background-color: rgb(22, 3, 29);
-    width: 80%;
+    width: 90%;
     border: 0px;
     gap: 50px;
     display: flex;
@@ -204,11 +202,11 @@ strong{
     align-items: center;
     border-right: solid 2px rgb(51, 229, 1);
     border-top: solid 2px rgb(51, 229, 1);
-   
+  
     
 }
 .div-img-2 {
-    width: 80%;
+    width: 90%;
     border: 0px;
     gap: 50px;
    background-color: rgb(22, 3, 29);
@@ -246,6 +244,7 @@ font-size: .7em;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
+width: 100%;
    }
 #menu.Show{
 text-align: left;
