@@ -38,7 +38,7 @@ html{
  
 }
 #menu{
-    
+    opacity: 1;
 }
 .ul-li, a{
     position: relative;
@@ -254,8 +254,15 @@ footer > p{
    line-height: 7vh;
 }
 #menu{
-  opacity: 0;
+ 
 }
+#menu.show{
+  
+   
+}
+
+   
+
 .ul-li, a{
     font-size: 1.3em;
     margin: 10%;
