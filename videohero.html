@@ -44,7 +44,29 @@
         #video-hero p {
             margin: 0;
             padding: 5px;
-           
+        }
+
+        #menu-bar {
+            display: flex;
+            background-color: rgba(0, 0, 0, 0.474);
+        }
+
+        .itens, a {
+            right: 50%;
+            font-size: 1.3em;
+            color: rgb(186, 221, 11);
+            align-items: center;
+            display: inline;
+            margin: 30px;
+        }
+
+        #invisivel {
+            display: none;
+        }
+
+        #mostrar:hover + #invisivel {
+            display: block;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -58,17 +80,25 @@
             <h1>Cyberpunk</h1>
             <h2>Cyberpunk</h2>
             <p>Um mundo novo e futurista</p>
-         
-           
         </div>
       
-      
+        <div id="menu-bar">
+            <ul>
+                <li class="itens"><a href="#">item-1</a></li>
+                <li class="itens"><a href="#">item-2</a></li>
+                <li class="itens"><a href="#">item-3</a></li>
+                <li class="itens"><a href="#">item-4</a></li>
+            </ul>
+        </div>
     </header>
 
     <main>
-        <h1>faça já sua pre venda</h1>
-
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at hic necessitatibus, laudantium autem ullam odio fugiat harum corrupti eligendi, tenetur natus. Et nobis, soluta expedita maiores voluptatum natus dolorem?</p>
+        <p id="mostrar">Passe aqui</p>
+        <div id="invisivel">
+            <p>Escodindinho 1</p>
+            <p>Escodindinho 2</p>
+            <p>Escodindinho 3</p>
+        </div>
     </main>
 </body>
 </html>
