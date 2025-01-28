@@ -51,7 +51,14 @@ html{
    
    
 }
-
+#botao-fora{
+   opacity: 1;
+   transition: 1s;
+}
+#botao-fora.show{
+   display: none;
+    
+}
 
 .ul-li, a{
     position: relative;
