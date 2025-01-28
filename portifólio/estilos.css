@@ -65,6 +65,7 @@ html{
     color: rgb(255, 0, 127);
     padding: 3%;
     width: 50%;
+    font-family: 'orbitron' sans-serif;
 }
 .text-h2{
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.813);
@@ -88,7 +89,7 @@ body{
     grid-column-gap: 150px;
     grid-row-gap: 200px ;
     padding: 1%;
-   background-image: linear-gradient(black, rgb(72, 70, 70));
+   
   
     
 }
@@ -385,8 +386,9 @@ div{
 }
 footer{
     width: 100%;
-    margin-top: 70%;
-    padding: 0px;
+    margin-top: 20%;
+  
+    background-color: blue;
 }
 footer > p{
     font-size: 1.3em;
