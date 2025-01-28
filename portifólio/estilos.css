@@ -245,6 +245,7 @@ footer > p{
 @media screen and (max-width: 1000px){
 #capa-header{
     width: 100%;
+    margin-bottom: 60%;
     font-size: .5em;
     line-height: 1px;
     padding: 3em;
@@ -307,9 +308,13 @@ footer > p{
 }
 div{
    line-height: 1.5em;
+   width: 50%;
+
 }
 #card-1{
     font-size: 1.5em;
+   
+ 
     
 }
 #card-1:hover{
@@ -317,6 +322,7 @@ div{
 }
 #card-2{
     font-size: 1.5em;
+   
 }
 #card-3{
     font-size: 1.5em;  
