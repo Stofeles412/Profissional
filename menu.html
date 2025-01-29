@@ -25,6 +25,16 @@
             opacity: 1;
 
         }
+        #corpo-mudar{
+            height:  500px;
+            padding: 10%;
+    
+            opacity: 1;
+            background-color: rgb(255, 255, 255);
+        }
+        #corpo-mudar.mudar{
+            background-color: black;
+        }
     </style>
 </head>
 <body>
@@ -39,10 +49,23 @@
             </ul>
         </menu>
     </nav>
+    <main id="corpo-mudar">
+        <button onclick="mudarBack()">fundo</button>
+<h1>fundo suave</h1>
+    </main>
     <script>
         function abrirMenu(){
             var abrir = document.getElementById("nav-bar")
             abrir.classList.toggle("mostrar")
+        }
+        function mudarBack(){
+            var corpo = document.getElementById("mudar-corpo")
+            corpo.classList.toggle("mudar")
+            if (corpo.classList.contains("mudar")){
+                corpo.classList.add("mudar")
+            }else{
+                corpo.classList.remove("mudar")
+            }
         }
     </script>
 </body>
