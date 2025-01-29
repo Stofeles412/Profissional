@@ -54,6 +54,8 @@ html{
 #botao-fora{
    opacity: 1;
    transition: 1s;
+   border: 0;
+   background-color: transparent;
 }
 #botao-fora.show{
    display: none;
@@ -169,10 +171,11 @@ div{
     max-height: 500px;
 }
 .botao{
-    width: 100px;
+    cursor: pointer;
+    width: 50px;
     padding: 5px;
-    background-color: rgb(215, 153, 8);
     display: block;
+    border-radius: 100%;
    
 }
 #seçao-1{
