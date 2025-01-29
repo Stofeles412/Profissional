@@ -45,10 +45,19 @@
             margin: 0;
             padding: 5px;
         }
+        #menu-bar.show{
+            transition: 1s;
+            transform: translate(1%);
+            opacity: 1;
+        }
 
         #menu-bar {
             display: flex;
-            background-color: rgba(0, 0, 0, 0.474);
+            height: 400px;
+            background-color: rgba(0, 0, 0, 0.834);
+            transform: translate(-100%);
+            opacity: 1;
+            transition: 1.2s;
         }
 
         .itens, a {
@@ -68,6 +77,12 @@
             display: block;
             cursor: pointer;
         }
+        #botao{
+            opacity: 1;
+        }
+        #botao.show{
+            opacity: 0;
+        }
     </style>
 </head>
 <body>
@@ -81,8 +96,9 @@
             <h2>Cyberpunk</h2>
             <p>Um mundo novo e futurista</p>
         </div>
-      
+        <button id="botao" onclick="openMenu()">X</button>
         <div id="menu-bar">
+            <button id="botao" onclick="openMenu()">X</button>
             <ul>
                 <li class="itens"><a href="#">item-1</a></li>
                 <li class="itens"><a href="#">item-2</a></li>
@@ -100,5 +116,19 @@
             <p>Escodindinho 3</p>
         </div>
     </main>
+    <script>
+        function openMenu(){
+            var abrir = document.getElementById("menu-bar")
+            var botao = document.getElementById("botao")
+            abrir.classList.toggle("show")
+            if (abrir.classList.contains("show")){
+                botao.classList.add("Show")
+
+                
+            }else{
+                botao.classList.remove("show")
+            }
+        }
+    </script>
 </body>
 </html>

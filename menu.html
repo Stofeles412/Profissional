@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            background-color: black;
+        }
+        #nav-bar{
+            line-height: 100px;
+            height: 400px;
+            transform-origin: top;
+           text-align: center;
+           transform: translate(-100%);
+           transition: .7s;
+           opacity: 0;
+        }
+         #nav-bar.mostrar{
+            
+         transform: translate(0);
+         transform-origin: top;
+            transition: .8s;
+            opacity: 1;
+
+        }
+    </style>
+</head>
+<body>
+    <button  id="botao" onclick="abrirMenu()">abrir</button>
+    <nav id="nav-bar">
+        <menu id="menu-itens">
+            <ul>
+                <li><a href="#">itens</a></li>
+                <li><a href="#">itens</a></li>
+                <li><a href="#">itens</a></li>
+                <li><a href="#">itens</a></li>
+            </ul>
+        </menu>
+    </nav>
+    <script>
+        function abrirMenu(){
+            var abrir = document.getElementById("nav-bar")
+            abrir.classList.toggle("mostrar")
+        }
+    </script>
+</body>
+</html>
