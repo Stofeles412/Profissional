@@ -263,6 +263,14 @@ footer > p{
     border: 0;
     padding: 1px;
 }
+#div-foot{
+    border-right:  solid 2px rgb(2, 245, 14);
+    border-left: solid 0px;
+    border-top: solid 0px ;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: transparent;
+}
 
 @media screen and (max-width: 1000px){
 #capa-header{
