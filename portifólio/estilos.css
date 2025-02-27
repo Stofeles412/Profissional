@@ -147,7 +147,7 @@ div{
     font-size: 1.3em;
     
 }
-#card-1:hover{
+.card:hover{
     transition: .2s;
     box-shadow: 3px 3px 3px rgb(192, 7, 198);
 }
