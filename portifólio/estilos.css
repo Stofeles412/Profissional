@@ -194,6 +194,8 @@ div{
     color: rgb(25, 212, 8);
     background-color: rgb(22, 3, 29);
     border: solid 3px rgb(203, 25, 212);
+    width: 95%;
+ 
   
 }
  .seçao-h2{
@@ -229,7 +231,7 @@ strong{
 }
 .div-img{
     background-color: rgb(22, 3, 29);
-    width: 90%;
+    width: 70%;
     border: 0px;
     gap: 50px;
     display: flex;
@@ -241,7 +243,7 @@ strong{
     
 }
 .div-img-2 {
-    width: 90%;
+    width: 70%;
     border: 0px;
     gap: 50px;
    background-color: rgb(22, 3, 29);
@@ -254,6 +256,7 @@ strong{
 }
 #sobre{
     margin-top: 30%;
+    height: 700px;
     background-color: rgb(25, 6, 34);
     border-top: solid 3px rgb(225, 197, 16);
 }
@@ -281,7 +284,10 @@ footer > p{
     border-top: solid 0px ;
     display: flex;
     flex-direction: column-reverse;
+    display: flex;
+    flex-direction: column-reverse;
     background-color: transparent;
+  
 
 }
 
