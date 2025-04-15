@@ -296,7 +296,13 @@ footer > p{
     border: 0px;
 }
 
-
+article{
+   font-size: 1.5em;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(0, 4, 0);
+    background-color: rgb(166, 16, 208);
+}
 @media screen and (max-width: 1000px){
 #capa-header{
     width: 100%;
