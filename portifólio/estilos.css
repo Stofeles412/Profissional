@@ -305,15 +305,9 @@ article{
     color: rgb(0, 4, 0);
     background-color: rgb(166, 16, 208);
 }
-.h2-animada{
-    background-color: transparent;
-    width: 100%;
-    position: absolute;
+
    
  
-   
-  
-}
 video{
     position: fixed;
     top: 0;
