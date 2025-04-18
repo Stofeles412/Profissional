@@ -309,16 +309,19 @@ article{
     background-color: transparent;
     width: 100%;
     position: absolute;
-    z-index: 1;
+   
  
    
   
 }
 video{
-    height: 500px;
-    width: 100%;
-    opacity: 1;
     position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
 
 }
 
