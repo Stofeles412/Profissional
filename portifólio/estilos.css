@@ -12,7 +12,7 @@ html{
    width: 100%;
    font-family: 'exo 2', sans-serif;
     font-weight: 200;
-    background-image: url(../imagens/digital-art-7753965_1920.jpg);
+    /*background-image: url(../imagens/digital-art-7753965_1920.jpg);*/
     background-size: cover;
 
 }
@@ -138,7 +138,7 @@ div{
     width: 30%;
     min-height: 400px;
     color: rgb(255, 255, 255);
-    background-color: rgb(46, 0, 61);
+    background-color: rgba(46, 0, 61, 0.47);
     line-height: 40px;
     font-family: 'roboto' sans-serif;
     
@@ -194,7 +194,7 @@ div{
     grid-template-columns: repeat(200%, 1fr);
     padding: 30px;
     color: rgb(25, 212, 8);
-    background-color: rgb(22, 3, 29);
+    background-color: rgba(22, 3, 29, 0.476);
     border: solid 3px rgb(203, 25, 212);
     width: 95%;
  
@@ -232,7 +232,7 @@ strong{
 
 }
 .div-img{
-    background-color: rgb(22, 3, 29);
+    background-color: rgba(22, 3, 29, 0.674);
     width: 70%;
     border: 0px;
     gap: 50px;
@@ -248,7 +248,7 @@ strong{
     width: 70%;
     border: 0px;
     gap: 50px;
-   background-color: rgb(22, 3, 29);
+    background-color: rgba(22, 3, 29, 0.674);
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -262,7 +262,7 @@ strong{
     grid-template-columns: repeat(4, 1fr);
     margin-top: 30%;
     height: 750px;
-    background-color: rgb(25, 6, 34);
+    background-color: rgba(25, 6, 34, 0.502);
     border-top: solid 3px rgb(225, 197, 16);
     border: 0px;
 }
