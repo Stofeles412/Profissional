@@ -277,6 +277,7 @@ footer > p{
   
 }
 .div-logo{
+    color: yellow;
     border: 0px;
     background-color: transparent;
    
@@ -302,8 +303,8 @@ article{
    font-size: 1.5em;
     text-align: center;
     font-weight: 600;
-    color: rgb(0, 4, 0);
-    background-color: rgb(166, 16, 208);
+    color: rgb(0, 255, 8);
+    background-color: rgba(166, 16, 208, 0.431);
 }
 
    
