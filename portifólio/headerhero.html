@@ -62,23 +62,53 @@ text-decoration: none;
         border-bottom: solid 2px rgba(6, 83, 226, 0.515) ;
     }
     article{
+        margin-top: 30%;
         background-color: rgb(11, 23, 104);
         color: aliceblue;
         display: grid;
+        padding: 50px;
     
     }
     .seçao-1{
         grid-template-columns: repeat(1fr,4);
        position: relative;
-       left: 50%;
+       left: 70%;
        width: 30%;
     }
     .seçao-2{
         grid-template-columns: repeat(1fr,4);
         position: relative;
-        right: 40%;
+        left: 5%;
         width: 30%;
     }
+   .roda-pe{
+    display: grid;
+    height: 300px;
+    background-color: rgb(52, 67, 67);
+   
+   }
+   .foot-text{
+   grid-template-columns: repeat(1fr,4);
+   position: relative;
+   left: 70%;
+   top: 60%;
+   }
+   .foot-ul{
+    grid-template-columns: repeat(1fr,4);
+    position: relative;
+    width: 0%;
+   left: 40%;
+   bottom: 20%;
+   }
+   .foot-text-2{
+   grid-template-columns: repeat(1fr,4);
+   position: relative;
+   left: 5%;
+   bottom: 100%;
+   }
+   .icones{
+    width: 50px;
+   }
 </style>
 <body>
     <div class="card-ul">
@@ -126,7 +156,7 @@ text-decoration: none;
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem quasi consequatur doloremque facere culpa sequi suscipit iure laboriosam ex. Quis quaerat enim amet. Facere, esse ducimus. Placeat expedita omnis animi.</p>
       </section>
 
-      <section class="seção-2">
+      <section class="seçao-2">
         <h2>vendas</h2>
 
         <img src="/imagens/ai-generated_1280.webp" alt="">
@@ -134,5 +164,33 @@ text-decoration: none;
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem quasi consequatur doloremque facere culpa sequi suscipit iure laboriosam ex. Quis quaerat enim amet. Facere, esse ducimus. Placeat expedita omnis animi.</p>
       </section>
     </article>
+
+    <footer class="roda-pe">
+        <div class="foot-text">
+        <p>conato - 21988776545</p>
+        <p>email: ficticio@gmai.com
+        </p>
+        <p>faq</p>
+        <p>fale conosco
+        </p>
+
+        </div>
+
+        <div class="foot-ul">
+            <ul>
+<li><a href="#">guithub</a></li>
+<li><a href="#">guithub</a></li>
+<li><a href="#">guithub</a></li>
+<li><a href="#">guithub</a></li>
+            </ul>
+        </div>
+
+        <div class="foot-text-2">
+        <img src="../imagens/99.png" alt="" class="icones">
+        <img src="../imagens/99.png" alt="" class="icones">
+        <img src="../imagens/99.png" alt="" class="icones">
+    
+            </div>
+    </footer>
 </body>
 </html>
